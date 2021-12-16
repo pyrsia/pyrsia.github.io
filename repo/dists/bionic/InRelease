@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: bionic
+Date: Thu, 16 Dec 2021 04:19:21 UTC
+Architectures: amd64
+Components: main
+Description: pyrsia/website
+MD5Sum:
+ ae97bebbd97065fe6444cc09c6efae8b 416 main/binary-amd64/Packages
+ 02fd421aa841c797d9c906e6b12522a6 316 main/binary-amd64/Packages.gz
+ 3c1fbe2e27e414cf3237a998542466ee 64 main/binary-amd64/Release
+SHA1:
+ 0e518dd019a3e440626e93aaa786ab943f8823f6 416 main/binary-amd64/Packages
+ e812bf0d2bd3545fa02b05fee63fc55e5f93fc36 316 main/binary-amd64/Packages.gz
+ 93cc98ab863e216df7814ec4885814e855212e3d 64 main/binary-amd64/Release
+SHA256:
+ 8701728c3cacef9734025c5954dd0037815d7aff248df9b689b3c7e75b5f47a8 416 main/binary-amd64/Packages
+ ce38bfce5e99e88230110cab8904b526b0d03af6e7f2a0b2865e4f1f4faf0f15 316 main/binary-amd64/Packages.gz
+ 2562b3a8e87bb4a7b2a2fb3eb8e08ffeb86eb6ffcbf6fc5a22d50ee27320ed77 64 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE4b9KWVrUuKdWE0AvGmcQ5dntMOsFAmG6vkkACgkQGmcQ5dnt
+MOv9xxAAnvqHWRnK2yMvJRseOemTj63Wyxi8NTeeWcAK3xYebF3BrQIZhT0UPz1W
+uPU5S8AuPmiW59UnulqoV6EAlwOtfGFMXO9SdHCnMW0ahaxRe8Pw0kHDAn/yPUX9
+rALyQStszxlduAEerL8kNVlGlYC8kWcSt++7w8LDq4TYKiQ1gnhucSNS4Ojl02yC
+iQqQQK//c7imXvsh/ftPo3NMpcWVl5QLBKIXfRKoyVRTN/Eo7da6JwI/EU0IWmYt
+Wwf2bGjxNdoDR3L57oDE1Z5upldV9+D3h4Z71dAeVozaqYPhSv6kUVsdCCXMymIo
+d82AVv2nQn+6K8GibZD8jJ+uvqHtvVwNg3uJ0wUHHctPvFYRPJaDbiAk/Hfsr4Q9
++cZGx6bzRYt6Y330E/cJqHHjyHk5lLYz6kEL5jAMePVtCF/8bMhLvfzS2PR2fq2y
+EAcXX/gnWFV056X8yl9qJBfJ3jcEs9f7xFJTJ2hkkczhDeEbEa4NAuoFQmCjdquP
+poHgY8ftFZ4Y4MvwgNmQ0Wn3BkZMKiG7h1poZN/VfjMVmhZvKXOig2UxD9XrFpC3
+/OrxN9DXpFZku8RkdfZm9xJ19sWdBkh60PhChbNg2PNYhFLJUSdy3ufM0hTdMOs9
+AIxfKy8EzKEjEkJcc+Tzr3k5MUFcjPsxDeBZmb+VYH2ViNVhorU=
+=sTI8
+-----END PGP SIGNATURE-----
