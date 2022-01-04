@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: bionic
+Date: Tue, 04 Jan 2022 23:22:57 UTC
+Architectures: amd64
+Components: main
+Description: pyrsia/website
+MD5Sum:
+ 4058310048422503cc3c03a2823e214b 418 main/binary-amd64/Packages
+ 395e0e45ef4b6b28f7be8c3e43e83a2c 316 main/binary-amd64/Packages.gz
+ 3c1fbe2e27e414cf3237a998542466ee 64 main/binary-amd64/Release
+SHA1:
+ c56ddd8fd6c1185be90ffe6d1444e3cb3f22c62e 418 main/binary-amd64/Packages
+ 4cf3acaf6c7b383b0b4d51e058c3750d37a49832 316 main/binary-amd64/Packages.gz
+ 93cc98ab863e216df7814ec4885814e855212e3d 64 main/binary-amd64/Release
+SHA256:
+ d0b9a02efbbbaf5c50323c261ca77ab0869c3324f90a879582d51c42313b7966 418 main/binary-amd64/Packages
+ 88e1e9f5ef7fc12fdd6324920a32b442a9ee34a39ef491ae733fe24a3d2de28e 316 main/binary-amd64/Packages.gz
+ 2562b3a8e87bb4a7b2a2fb3eb8e08ffeb86eb6ffcbf6fc5a22d50ee27320ed77 64 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEY6ff3vOxGVCRbgFG2Vjs73gpIDMFAmHU1tIACgkQ2Vjs73gp
+IDMa7xAAhJFIoTzWoS+ZjYTbY29Ty+QZJOnguUzHmHMJa+XTBOpX39gUv5iJ3YDu
+egYqv9/aQihbj7cHFq+R2Hj1uicWzLw9K4ilwwY/qrbHSb56n2W4trgO2dg7BvnE
+CHC+enWq2+dWwrmnfCnZ9udaMNIVn8Gf3ZPZyey9M5qIZFy1kEHro3ZjC4E+ZiAH
+bbHuRetd2JmuOB9fI/IoIvnOBi/Fs6oVAEha55nXhLN/Uxo6jXyHtfyQyLCToZF3
+sjz7wlBrGbSUu7EkrzNLM/vyM15VnTZwnzPXc8R7vEtRuWkeZfvy9qDEQvpUmzcI
+Vb+FLjFMA1lTbfXP5gAx+H+QEfhwVlw57VbSML2wxKYaHEHIoWxGHoRBONzn5gY2
+UhDWT1KCv2Y2gYPxWyVxnO+NCXOGi3cv3w9VlyMidTUkX0bEph/64AKDwhGjaGfv
+sPtRo+7AscGLGjJpYT5ZKGbco02MNsqtjAw/5khEugjeWu0q64odWx3qeKV7a3or
+pFq2FEuagr8ztiQvOWVrjsIlJLeueBDZTMBdLh7zeQM5xUt8daCVc4fmbwEdAMBc
+beBiuM35lh+M19TMsoERAOF4/oq4LAOHEVFDJFTzwom5hqjWyVG4S9I2c8kvd/RK
+HdYHJJB/0hWUXncHNTIDgsqU3+FTmdUlSfFXs4/T6JSFxzUJGeQ=
+=f6eM
+-----END PGP SIGNATURE-----
