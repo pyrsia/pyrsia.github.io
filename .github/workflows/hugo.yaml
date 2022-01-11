@@ -19,14 +19,12 @@ jobs:
 
       - name: Build
         run: |
-            npm audit fix --force; \
-            npm update; \
-            npm audit fix --force; \
-            npm ci; \
-            sudo apt-get -y install hugo git; \
-            curl -sS https://raw.githubusercontent.com/pyrsia/.github/main/contributing.md >> content/en/contributor/_index.md
-            /usr/bin/hugo --minify; \
-            ls -lR public
+          npm update; \
+          npm ci; \
+          sudo apt-get -y install hugo git; \
+          curl -sS https://raw.githubusercontent.com/pyrsia/.github/main/contributing.md >> content/en/contributor/_index.md
+          /usr/bin/hugo --minify; \
+          ls -lR public
         shell: bash
 
       - name: Deploy
