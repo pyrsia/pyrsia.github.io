@@ -96,7 +96,7 @@ version = "9.0"
 url_latest_version = "https://docs.pyrsia.io"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/pyrsia/website"
+github_repo = "https://github.com/pyrsia/pyrsia.github.io"
 github_branch= "main"
 
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
@@ -147,7 +147,7 @@ enable = false
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
 	name ="Twitter"
-	url = "https://twitter.com/@PyrsiaOS"
+	url = "https://twitter.com/@PyrsiaOSS"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
 #[[params.links.user]]
@@ -168,7 +168,7 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/pyrsia/pyrsia"
+	url = "https://github.com/pyrsia"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 
