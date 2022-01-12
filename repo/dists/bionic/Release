@@ -1,0 +1,17 @@
+Codename: bionic
+Date: Wed, 12 Jan 2022 04:31:04 UTC
+Architectures: amd64
+Components: main
+Description: pyrsia/website
+MD5Sum:
+ c648d634f68ee26710fb19be005a1d33 418 main/binary-amd64/Packages
+ 1914e49a7124905aa2230f1fffba97ba 318 main/binary-amd64/Packages.gz
+ 3c1fbe2e27e414cf3237a998542466ee 64 main/binary-amd64/Release
+SHA1:
+ 91821267e812932ba6d511791db04154c179cb50 418 main/binary-amd64/Packages
+ 6d98bbdf5a796ff4e2cb0e9133a828d4e5d9d327 318 main/binary-amd64/Packages.gz
+ 93cc98ab863e216df7814ec4885814e855212e3d 64 main/binary-amd64/Release
+SHA256:
+ a839de5d335ed5e05a498872a212c2341284a38de0886f52d2392b223f21182b 418 main/binary-amd64/Packages
+ 90c3859065656bb0b4e7550dd5f34b8bbf68e06fc4465dd31348ff5dc7f40078 318 main/binary-amd64/Packages.gz
+ 2562b3a8e87bb4a7b2a2fb3eb8e08ffeb86eb6ffcbf6fc5a22d50ee27320ed77 64 main/binary-amd64/Release
