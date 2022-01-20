@@ -76,7 +76,7 @@ Kleoxenus and Democletus invented [Pyrsia](https://en.wikipedia.org/wiki/Phrycto
 Also, the square could be combined with a [cipher](https://en.wikipedia.org/wiki/Polybius_square#Cryptography) to send secure messages.
 {{% /blocks/feature_dual %}}
 {{% blocks/feature_dual %}}
-{{< figure src="https://images.squarespace-cdn.com/content/v1/57125c2c2b8dde54a34b537f/1610505862182-EHP7C22V98L1980CR155/Pyrsia.jpg?format=1000w" caption="Pysria Square and Torches" width="400px" height="400px" >}}
+{{< figure src="https://images.squarespace-cdn.com/content/v1/57125c2c2b8dde54a34b537f/1610505862182-EHP7C22V98L1980CR155/Pyrsia.jpg?format=1000w" caption="Pyrsia Square and Torches" width="400px" height="400px" >}}
 {{% /blocks/feature_dual %}}
 
 {{< /blocks/section >}}
