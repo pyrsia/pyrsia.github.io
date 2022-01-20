@@ -30,7 +30,7 @@ Note: Visual Studio is only a preview and will not render all markdown updates s
 
 [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) can be used for the basic page layout.  CSS has been applied to the Docsy theme template in order to tweak the final page rendering.  
 
-8. Create a Pull Request to merge in your changes. See [PR Cheat Sheet](/guides/contributorguide/pull-request-cheat-sheet/)
+8. Create a Pull Request to merge in your changes. See [PR Cheat Sheet](/guides/contributorguide/getting-started/pull-request-cheat-sheet/)
 
 ## Making Coding Changes
 
@@ -42,7 +42,7 @@ The Pyrsia code base is stored mainly in the [pyrsia/pyrsia](https://github.com/
 2. Clone the new repo to your computer.
 3. Make the coding changes with your favorite editor.
 4. The code can be run and debug natively in your favorite editor.  You may need to run multiple instances of the `pyrsia_node` in order to test certain scenarios.  This can be achieved by passing a unique port number when you start the `pyrsia_node` running.
-5. Create a Pull Request to merge in your changes. See [PR Cheat Sheet](/guides/contributorguide/pull-request-cheat-sheet/)
+5. Create a Pull Request to merge in your changes. See [PR Cheat Sheet](/guides/contributorguide/getting-started/pull-request-cheat-sheet/)
 
 ## Project Management
 
