@@ -22,7 +22,6 @@ jobs:
           npm update; \
           npm ci; \
           sudo apt-get -y install hugo git; \
-          curl -sS https://raw.githubusercontent.com/pyrsia/.github/main/contributing.md >> content/en/contributor/_index.md
           /usr/bin/hugo --minify; \
           ls -lR public
         shell: bash
