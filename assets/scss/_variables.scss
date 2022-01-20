@@ -1,5 +1,5 @@
 /*
-Ortelius overrides for the base docsy colour scheme
+Prysia overrides for the base docsy colour scheme
 */
 
 @fa-font-path :        "../webfonts";
@@ -28,7 +28,7 @@ $light: #D3F3EE !default;
 $dark: #403F4C !default;
 $blue: #72A1E5 !default;
 $orange: #BA5A31 !default;
-$ortelius_orange: rgb(248, 149, 26) !default;
+$pyrsia_orange: rgb(248, 149, 26) !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #eee !default;
 $gray-300: #dee2e6 !default;
@@ -53,7 +53,7 @@ $td-sidebar-border-color: $border-color !default;
 // These colors are all part of the theme palette, but the mix is fairly random to create variation. This can be overridden by the project if needed.
 $td-box-colors: $dark, $primary, $secondary, $info, $primary-light, $gray-600, $success, $warning, $dark, $danger, $primary, $secondary, $primary-light, $info !default;
 
-$link-color: darken($ortelius_orange, 0%) !default;
+$link-color: darken($pyrsia_orange, 0%) !default;
 $link-decoration: none !default;
 $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: none !default;

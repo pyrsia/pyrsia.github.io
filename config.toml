@@ -171,3 +171,8 @@ enable = false
 	url = "https://github.com/pyrsia"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
+
+[[menu.main]]
+    name = "Documentation"
+    weight = 90
+    url = "/guides"
