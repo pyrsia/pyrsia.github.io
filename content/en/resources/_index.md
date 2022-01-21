@@ -25,3 +25,5 @@ menu:
 
 {{< /blocks/feature_dual >}}
 {{< /blocks/section >}}
+
+{{< community_links >}}

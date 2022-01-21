@@ -100,7 +100,7 @@ github_repo = "https://github.com/pyrsia/pyrsia.github.io"
 github_branch= "main"
 
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-#github_project_repo = "https://github.com/prysia/docsy"
+#github_project_repo = "https://github.com/pyrsia/docsy"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -171,3 +171,8 @@ enable = false
 	url = "https://github.com/pyrsia"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
+
+[[menu.main]]
+    name = "Documentation"
+    weight = 90
+    url = "/guides"

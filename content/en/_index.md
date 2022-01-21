@@ -55,7 +55,7 @@ Pyrsia aims to secure the software supply chain of open-source dependencies by c
 <hr>
 <p></p>
 </div>
-{{% blocks/feature icon="fab fa-3x fa-github-square" title="Contribute" url="/contributor/" %}}
+{{% blocks/feature icon="fab fa-3x fa-github-square" title="Contribute" url="/guides/contributorguide/contributors-guidelines/" %}}
 {{% /blocks/feature %}}
 {{% blocks/feature icon="fas fa-3x fa-ticket-alt" title="Open an Issue" url="https://github.com/pyrsia/pyrsia/issues" %}}
 {{% /blocks/feature %}}
