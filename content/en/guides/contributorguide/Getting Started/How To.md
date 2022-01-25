@@ -56,4 +56,5 @@ GitHub issues will be label to help filter and navigate issues.
 
 ## Release Numbering
 
-Releases ending in ”.0” are major releases and this is where all new features land. Releases ending in another integer, like “0.X.1” and “0.X.2” are dot releases, and these are only going to contain bugfixes. Typically we don’t do dot releases for minor bugfixes (reserving these for larger items), but may occasionally decide to cut dot releases containing a large number of smaller fixes if it’s still a fairly long time before the next release comes out.
+As a rust project using cargo, we will be adhering to the [Semenatic Versioning](https://semver.org/) compatibility requirements as
+specified [here](https://doc.rust-lang.org/cargo/reference/resolver.html?highlight=version#semver-compatibility)
