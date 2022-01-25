@@ -17,6 +17,7 @@ Efficient usage of resources for running Pyrsia nodes where contributors are abl
 
 Pyrsia is limited to addressing C, D, E, F, G, H for all open source software as shown the diagram below from https://slsa.dev
 
+
 SLSA Areas Addressed:
 
 
