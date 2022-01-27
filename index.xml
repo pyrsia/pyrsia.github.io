@@ -1,1 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pyrsia – Pyrsia Open Source Project</title><link>/</link><description>Recent content in Pyrsia Open Source Project on Pyrsia</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pyrsia – Pyrsia Open Source Project</title><link>/</link><description>Recent content in Pyrsia Open Source Project on Pyrsia</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Learning Rust the Hard Way</title><link>/blog/1/01/01/learning-rust-the-hard-way/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/1/01/01/learning-rust-the-hard-way/</guid><description>
+&lt;p>A routine cargo audit of our tree revealed a vulnerability on &lt;em>chrono&lt;/em> (and a few other dependencies with suggested upgrades, which we made). Unfortunately, &lt;em>chrono&lt;/em> indicates the following:&lt;/p>
+&lt;pre>&lt;code>Crate: chrono
+Version: 0.4.19
+Title: Potential segfault in `localtime_r` invocations
+Date: 2020-11-10
+ID: RUSTSEC-2020-0159
+URL: https://rustsec.org/advisories/RUSTSEC-2020-0159
+Solution: No safe upgrade is available!
+&lt;/code>&lt;/pre>&lt;p>For our own use case, exclusively ISO8601 time in UTC we did not appear vulnerable, but to be good netizens we replaced our dependency on &lt;em>chrono&lt;/em> with the time crate. This required changing all instances of:&lt;/p>
+&lt;p>&lt;code>chrono::DateTime&amp;lt;chrono::Utc&amp;gt;&lt;/code> with &lt;code>time::OffsetDateTime&lt;/code>&lt;/p>
+&lt;p>and calls to&lt;/p>
+&lt;p>&lt;code>chrono::DateTime::parse_from_rfc3339(unquoted_time_string)&lt;/code> with &lt;code>time::OffsetDateTime::parse(unquoted_time_string, &amp;amp;time::format_description::well_known::Rfc3339)&lt;/code>&lt;/p>
+&lt;p>and finally&lt;/p>
+&lt;p>&lt;code>chrono::Utc::now().to_rfc3339_opts(SecondsFormat::Millis, true)&lt;/code> became &lt;code>time::OffsetDateTime::now_utc().format(&amp;amp;time::format_description::well_known::Rfc3339).unwrap()&lt;/code>&lt;/p>
+&lt;p>We &lt;a href="https://github.com/pyrsia/synapse">forked synapse&lt;/a> and performed the same changes on the rpc lib from that project. Now we have no more reported audit issues.&lt;/p></description></item></channel></rss>
