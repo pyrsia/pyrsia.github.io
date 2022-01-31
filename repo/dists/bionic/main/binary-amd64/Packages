@@ -1,16 +1,16 @@
 Package: pyrsia
-Version: 0.1.0-727
+Version: 0.1.0-728
 Architecture: amd64
 Essential: no
 Maintainer: pyrsia.io
 Priority: optional
 Section: custom
-Filename: pool/main/p/pyrsia/pyrsia_0.1.0-727_amd64.deb
-Size: 21391720
-SHA256: 95d87b4b0084353ec8132c969b3bdc6f1698f613b8f3c5ec0b21a768cbd82fdd
-SHA1: cb80d760a301cb50f8773562fcb4b1db2fa0d05a
-MD5sum: 4983e11e10f930ffd258571753c3b470
+Filename: pool/main/p/pyrsia/pyrsia_0.1.0-728_amd64.deb
+Size: 21391692
+SHA256: cd2a4400d0c6adeb2585c036926ba4cecb154f8343487144fe7e6d6dae5e143c
+SHA1: 3b9d51659bba1c0afeed44a850fc0f66d8057e70
+MD5sum: 1bb1d8bce6c6f5dce040646ae90b97fe
 Description: Pyrsia Node and CLI
 Depends: openssl
-Installed-Size: 32943120
+Installed-Size: 32965536
 
