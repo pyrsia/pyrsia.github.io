@@ -4,7 +4,7 @@ description: Pyrsia Events
 summary: Join a Meeting or an Event
 menu:
   main:
-   weight: 100
+    weight: 100
 ---
 
 {{< blocks/section color="white" >}}
@@ -27,7 +27,7 @@ Join a SIG or attend our General meetings. We look forward to your help and inpu
 <h2>Meeting Calendar</h2>
 <hr>
 <div>
-<iframe src="https://calendar.google.com/calendar/embed?src=pyrsiaopensource%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/u/0/embed?src=pyrsiaopensource@gmail.com" style="border: 0" width="600" height="450" frameborder="0" scrolling="no"></iframe>
 </div>
 
 {{< /blocks/feature_dual >}}

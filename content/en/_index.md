@@ -4,6 +4,7 @@ description: Welcome to the Pyrsia Open Source Project Site
 ---
 
 {{< blocks/section color=dark >}}
+
 <div class="col-12">
 <h1 class="text-center">Decentralized Package Network</h1>
 <div id="home-github">
@@ -13,6 +14,7 @@ description: Welcome to the Pyrsia Open Source Project Site
 {{< /blocks/section >}}
 
 {{< blocks/section color=primary >}}
+
 <div class="col-12">
 <h1 class="text-center">State of Supply Chain Security</h1>
 <hr>
@@ -36,6 +38,7 @@ Pyrsia aims to secure the software supply chain of open-source dependencies by c
 {{< /blocks/section >}}
 
 {{< blocks/section color=white >}}
+
 <div class="col-12">
 <h1 class="text-center">Under the Hood</h1>
 <hr>
@@ -50,6 +53,7 @@ Pyrsia aims to secure the software supply chain of open-source dependencies by c
 {{< /blocks/section >}}
 
 {{< blocks/section color=primary >}}
+
 <div class="col-12">
 <h1 class="text-center">Get Involved</h1>
 <hr>
@@ -71,7 +75,7 @@ Pyrsia aims to secure the software supply chain of open-source dependencies by c
 </div>
 
 {{% blocks/feature_dual %}}
-Kleoxenus and Democletus invented [Pyrsia](https://en.wikipedia.org/wiki/Phryctoria) to communicate across great distances.  The method used two sets of torches and a [square](https://en.wikipedia.org/wiki/Polybius_square) containing the letters of the alphabet.  Number of torches in one set represented the X axis of the square, the other set the Y axis.  Combining these two locations on the square gave you the letter of the alphabet.  
+Kleoxenus and Democletus invented [Pyrsia](https://en.wikipedia.org/wiki/Phryctoria) to communicate across great distances. The method used two sets of torches and a [square](https://en.wikipedia.org/wiki/Polybius_square) containing the letters of the alphabet. Number of torches in one set represented the X axis of the square, the other set the Y axis. Combining these two locations on the square gave you the letter of the alphabet.
 
 Also, the square could be combined with a [cipher](https://en.wikipedia.org/wiki/Polybius_square#Cryptography) to send secure messages.
 {{% /blocks/feature_dual %}}
