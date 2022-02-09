@@ -27,7 +27,7 @@ Join a SIG or attend our General meetings. We look forward to your help and inpu
 <h2>Meeting Calendar</h2>
 <hr>
 <div>
-<iframe src="https://calendar.google.com/calendar/u/0/embed?src=pyrsiaopensource@gmail.com" style="border: 0" width="600" height="450" frameborder="0" scrolling="no"></iframe>
+<img src="https://images.squarespace-cdn.com/content/v1/57125c2c2b8dde54a34b537f/1610505862182-EHP7C22V98L1980CR155/Pyrsia.jpg" alt="Pyrsia Square and Torches" width="100%">
 </div>
 
 {{< /blocks/feature_dual >}}
