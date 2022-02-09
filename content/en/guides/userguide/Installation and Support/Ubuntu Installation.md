@@ -21,7 +21,9 @@ chmod 755 install.sh
 
 or the one-liner
 
-`curl -sS https://pyrsia.io/install.sh | sh`
+```
+curl -sS https://pyrsia.io/install.sh | sh
+```
 
 ### Test your Docker Install
 
