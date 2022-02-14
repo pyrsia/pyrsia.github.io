@@ -1,18 +1,18 @@
 Package: pyrsia
-Version: 0.1.0+813
+Version: 0.1.0+818
 Architecture: amd64
 Vcs-Browser: https://github.com/pyrsia/pyrsia
 Vcs-Git: https://github.com/pyrsia/pyrsia
 Maintainer: pyrsiaoss <pyrsiaopensource@gmail.com>
-Installed-Size: 15927
-Depends: openssl, synapse-bt
+Installed-Size: 15931
+Depends: synapse-bt, openssl
 Priority: optional
 Section: devel
-Filename: pool/main/p/pyrsia/pyrsia_0.1.0+813_amd64.deb
-Size: 4698856
-SHA256: c80d50bb0c71d704b3659f538cb5c6923685d1472ee4bd8a14e19d6c36c0b209
-SHA1: 87d470c41fcb1d5abb575f82423be05da6f4f335
-MD5sum: 0e59a6a349e07a93b5d205d5c5c47f00
+Filename: pool/main/p/pyrsia/pyrsia_0.1.0+818_amd64.deb
+Size: 4701480
+SHA256: fa734d0b398316797bf18111015f9661f17e54c9dea68b301e6f5e6e3a4519bf
+SHA1: d0205a1eb1a7581dba8d92469b4b040eb655454c
+MD5sum: 1ec6518304cc7f33eed2b54477c08eec
 Description: Prysia Node and CLI
  ![logo](https://raw.githubusercontent.com/pyrsia/.github/main/images/logo-color.svg)
  .
@@ -172,6 +172,11 @@ Description: Prysia Node and CLI
      `Word of caution: Running the peers for a few hours does generate network
  traffic and hence can drain your computer power. Ensure you are plugged into
  power if you are running multiple peers for a long time`
+ .
+     To test the pyrsia_node status you can use `curl`  and
+     ```
+     curl --location --request GET 'http://localhost:7888/status'
+     ```
  .
  .
  .
