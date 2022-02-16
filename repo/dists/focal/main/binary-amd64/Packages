@@ -1,18 +1,18 @@
 Package: pyrsia
-Version: 0.1.0+818
+Version: 0.1.0+832
 Architecture: amd64
 Vcs-Browser: https://github.com/pyrsia/pyrsia
 Vcs-Git: https://github.com/pyrsia/pyrsia
 Maintainer: pyrsiaoss <pyrsiaopensource@gmail.com>
-Installed-Size: 15931
+Installed-Size: 15939
 Depends: synapse-bt, openssl
 Priority: optional
 Section: devel
-Filename: pool/main/p/pyrsia/pyrsia_0.1.0+818_amd64.deb
-Size: 4701480
-SHA256: fa734d0b398316797bf18111015f9661f17e54c9dea68b301e6f5e6e3a4519bf
-SHA1: d0205a1eb1a7581dba8d92469b4b040eb655454c
-MD5sum: 1ec6518304cc7f33eed2b54477c08eec
+Filename: pool/main/p/pyrsia/pyrsia_0.1.0+832_amd64.deb
+Size: 4702040
+SHA256: 8e59b096ba5a27e3317d68515219cd164b09f7141ebaa749abf29686c787eb94
+SHA1: 60f79c508250f21a5e816ca5b495ce90eba56df3
+MD5sum: a10fed4d801be1fb914dcaaa064e3e80
 Description: Prysia Node and CLI
  ![logo](https://raw.githubusercontent.com/pyrsia/.github/main/images/logo-color.svg)
  .
@@ -55,7 +55,7 @@ Description: Prysia Node and CLI
  2. Clone this repo `git clone https://github.com/pyrsia/pyrsia.git`
  3. `cd pyrsia/pyrsia_node`
  4. You need to start the Pyrsia Node. To do so, you have 2 options:
-    - regular build: `cargo run`
+    - regular build: `DEV_MODE=on PYRSIA_ARTIFACT_PATH=pyrsia cargo run`
     - build in docker: `docker-compose up --build`
  .
  *Note*: Do not to stop this process, a running node is required for the 
@@ -146,17 +146,21 @@ Description: Prysia Node and CLI
  ports they use as follows
  .
      ```
-     cargo run --bin pyrsia_node -- -p 7888
+     DEV_MODE=on PYRSIA_ARTIFACT_PATH=pyrsia cargo run --bin pyrsia_node -- -p
+ 7888
  .
-     # RUST_LOG=debug cargo run --bin pyrsia_node -- -p 7888 # Use this
- environment variable if you would like to see debug logs
+     # RUST_LOG=debug DEV_MODE=on PYRSIA_ARTIFACT_PATH=pyrsia cargo run --bin
+ pyrsia_node -- -p 7888 # Use this environment variable if you would like to see
+ debug logs
      ```
  .
      ```
-     cargo run --bin pyrsia_node -- -p 8181
+     DEV_MODE=on PYRSIA_ARTIFACT_PATH=pyrsia cargo run --bin pyrsia_node -- -p
+ 8181
  .
-     # RUST_LOG=debug cargo run --bin pyrsia_node -- -p 8181 # Use this
- environment variable if you would like to see debug logs
+     # RUST_LOG=debug DEV_MODE=on PYRSIA_ARTIFACT_PATH=pyrsia cargo run --bin
+ pyrsia_node -- -p 8181 # Use this environment variable if you would like to see
+ debug logs
      ```
  .
      ```
