@@ -200,20 +200,20 @@ Description: Prysia Node and CLI
  inside the VM, available to Docker Engine, in the case of Docker Desktop.
 
 Package: synapse-bt
-Version: 1.0.0+849
+Version: 1.0.0+857
 Architecture: amd64
 Vcs-Browser: https://github.com/pyrsia/synapse
 Vcs-Git: https://github.com/pyrsia/synapse
 Maintainer: Luminarys <postmaster@gensok.io>
-Installed-Size: 10609
-Depends: libc6 (>= 2.18), libc6 (>= 2.29)
+Installed-Size: 10601
+Depends: libc6 (>= 2.29), libc6 (>= 2.18)
 Priority: optional
 Section: devel
-Filename: pool/main/s/synapse-bt/synapse-bt_1.0.0+849_amd64.deb
-Size: 2426864
-SHA256: facb5fd134751340f22decae8bea21a99b97cc612840d38016b03d1687c7d4d7
-SHA1: 466f6c3aaa50ff5638834f9153de5bd1c8c370b9
-MD5sum: d3d3619440a5cac606f0d35ccb0e955c
+Filename: pool/main/s/synapse-bt/synapse-bt_1.0.0+857_amd64.deb
+Size: 2425612
+SHA256: 4fbc406188e98ef1adc73ca9a697eba170c770a711895119b67bcd527d36e9fc
+SHA1: 3b3ab16eaa2198d9bf4625b4cc87fcc8051d1381
+MD5sum: c50c413b7f29cc9f6b1e1c879a8fe8ef
 Description: Synapse BitTorrent client
  # synapse
  [![Rust
