@@ -1,5 +1,5 @@
 Package: pyrsia
-Version: 0.1.0+1088
+Version: 0.1.0+1090
 Architecture: amd64
 Vcs-Browser: https://github.com/pyrsia/pyrsia
 Vcs-Git: https://github.com/pyrsia/pyrsia
@@ -8,11 +8,11 @@ Installed-Size: 18310
 Depends: openssl
 Priority: optional
 Section: devel
-Filename: pool/main/p/pyrsia/pyrsia_0.1.0+1088_amd64.deb
-Size: 5474424
-SHA256: 8f2befce8bade8dc0374538abb53b6b623db75d251cf8b184f5d1c2572965bbd
-SHA1: 147008e683b013b2a4ea97b1b12845b5dbd5876b
-MD5sum: 080f0c60ee240ced1dcca55e9f47e9ad
+Filename: pool/main/p/pyrsia/pyrsia_0.1.0+1090_amd64.deb
+Size: 5472472
+SHA256: 27643a3df2763d1e5fa7faa9fb3bdb6fc3fb9516b74b2d527a2ffbad77556f24
+SHA1: c1fd8ec0ef376ba4d5f4835ba08965fac52dca06
+MD5sum: c8ee2ec323a791136753cc434a91865b
 Description: Prysia Node and CLI
  ![logo](https://raw.githubusercontent.com/pyrsia/.github/main/images/logo-color.svg)
  .
