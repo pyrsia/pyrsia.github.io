@@ -1,18 +1,18 @@
 Package: pyrsia
-Version: 0.1.0+1217
+Version: 0.1.0+1223
 Architecture: amd64
 Vcs-Browser: https://github.com/pyrsia/pyrsia
 Vcs-Git: https://github.com/pyrsia/pyrsia
 Maintainer: pyrsiaoss <pyrsiaopensource@gmail.com>
-Installed-Size: 18478
-Depends: openssl
+Installed-Size: 18281
+Depends: zlib1g (>= 1:1.1.4), libc6 (>= 2.28), libssl1.1 (>= 1.1.0)
 Priority: optional
 Section: devel
-Filename: pool/main/p/pyrsia/pyrsia_0.1.0+1217_amd64.deb
-Size: 5497072
-SHA256: e6afa9745cac5009be12d8075dd463ba3f61b78fbfdc185e0dea17b1659fd728
-SHA1: 10c2a8a5769243f5860431128a955eab81a806dc
-MD5sum: 711eafd0246bfd07b85ad884c883a683
+Filename: pool/main/p/pyrsia/pyrsia_0.1.0+1223_amd64.deb
+Size: 5440320
+SHA256: 4d9b5776e2cfdfdcffc6112da904888927beab08ea95bf9441ef25a84bdd940c
+SHA1: bec4d3370fdc07e81339853bb48d516d71f4269e
+MD5sum: 45545dcf1c03fd82840d4c7873f8a332
 Description: Prysia Node and CLI
  ![logo](https://raw.githubusercontent.com/pyrsia/.github/main/images/logo-color.svg)
  .
@@ -65,8 +65,8 @@ Description: Prysia Node and CLI
  .
  There are two components of this project
  .
- - **[CLI](pyrsia_cli/)**: A basic interface which communicates with a node.
- - **[Node](pyrsia_node/)**: An instance of the Pyrsia daemon which can
+ -   **[CLI](pyrsia_cli/)**: A basic interface which communicates with a node.
+ -   **[Node](pyrsia_node/)**: An instance of the Pyrsia daemon which can
  participate in the network with other nodes.
  .
  ### Connecting with other Nodes
