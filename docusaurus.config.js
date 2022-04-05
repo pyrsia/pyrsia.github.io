@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon.png',
   organizationName: 'markus-jf', // Usually your GitHub org/user name.
-  projectName: 'pyrsia', // Usually your repo name.
+  projectName: 'website-pyrsia', // Usually your repo name.
   trailingSlash: true,
 
   presets: [
