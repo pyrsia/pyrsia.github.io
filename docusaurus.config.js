@@ -43,6 +43,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'robots', content: 'noindex, nofollow'}],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true, // remove light dark switch
