@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/website-pyrsia/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/img/favicon.png',
+  favicon: '/img/favicon-32x32.png',
   organizationName: 'markus-jf', // Usually your GitHub org/user name.
   projectName: 'website-pyrsia', // Usually your repo name.
   trailingSlash: true,

@@ -86,6 +86,10 @@
   top: -125px;
   margin-top: 0;
 }
+.docs-doc-page .footer {
+  /*fix footer on documentation pages - flame icon overlapp */
+  margin-top: 130px;
+}
 /*buttons*/
 .button.button--pyrsia-cta {
   background: linear-gradient(270deg, #FF9900 -8%, #82231E 83%),
