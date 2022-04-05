@@ -1,0 +1,22 @@
+.infoBox {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.boxBackground {
+  background-image: url("@site/static/img/vision/bg-pyrsia-vision-box.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-top: 30px;
+  padding-bottom: 130px;
+}
+.theBox {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1200px) {
+  .theBox {
+    max-width: 1200px;
+  }
+}

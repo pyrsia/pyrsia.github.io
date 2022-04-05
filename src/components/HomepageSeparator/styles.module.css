@@ -1,0 +1,24 @@
+.separator {
+  background: black;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.iconDiv {
+  margin: 0 auto;
+}
+
+.redLine {
+  height: 1px;
+  width: 100%;
+  border-top: 1px solid #70130E;
+  top: -33px;
+  z-index: 1;
+}
+
+.imgTorch {
+  width: 38px;
+  height: auto;
+  z-index: 2;
+}

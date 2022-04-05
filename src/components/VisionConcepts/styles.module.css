@@ -1,0 +1,17 @@
+.concepts {
+  background: black;
+  color: white;
+  padding: 50px 0 2rem 0;
+}
+.col5th {
+  width: 100%;
+  max-width: 212px;
+}
+.colImg {
+  width: 100%;
+  max-width: 175px;
+}
+.iconDiv {
+  min-height: 140px;
+}
+

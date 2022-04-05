@@ -1,0 +1,23 @@
+.features {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.bgTorch {
+  padding: 90px 0 20px 0;
+  background-image: url("@site/static/img/bg-pyrsia-torch-508x789.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.headline {
+  margin: 0 auto;
+  max-width: 870px;
+}
+
+.featureDesc {
+  max-width: 340px;
+}

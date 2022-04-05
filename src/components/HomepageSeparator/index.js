@@ -1,0 +1,19 @@
+import React from 'react';
+import clsx from 'clsx';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import styles from './styles.module.css';
+
+const urlTorch = '/img/icon-pyrsia-torch.svg';
+
+export default function HomepageSeparator() {
+    return (
+        <section className={styles.separator}>
+            <div className="row">
+                <div className={clsx(styles.iconDiv)}>
+                    <img className={clsx('pos-relative', styles.imgTorch)} src={useBaseUrl(urlTorch)}/>
+                </div>
+                <div className={clsx( 'pos-relative', styles.redLine)}></div>
+            </div>
+        </section>
+    );
+}

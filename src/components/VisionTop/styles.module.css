@@ -1,0 +1,25 @@
+.visionTop {
+  background-color: black;
+  color: white;
+  background-image: url("@site/static/img/vision/bg-page-pyrsia-vision.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 80px;
+}
+.iconDiv {
+  padding: 0 70px 10px 70px;
+}
+
+@media screen and (min-width: 996px) {
+  .headline {
+    max-width: 735px;
+  }
+  .paragraph {
+    max-width: 650px;
+  }
+  .descriptionXl {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 250px;
+  }
+}

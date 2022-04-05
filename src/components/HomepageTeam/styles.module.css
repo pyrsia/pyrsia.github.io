@@ -1,0 +1,24 @@
+.team {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.iconDiv {
+  padding: 0 70px 10px 70px;
+}
+
+@media screen and (min-width: 996px) {
+  .description {
+    max-width: 885px;
+    margin: 0 auto;
+  }
+  .descriptionXl {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 250px;
+  }
+}

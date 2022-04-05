@@ -1,0 +1,151 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+
+  /* font family */
+  --ifm-font-family-base: 'Open Sans', Arial, sans-serif;
+
+  /* general */
+  --ifm-heading-color: #EE9B15;
+
+  /* container width */
+  --ifm-container-width-xl: 1200px;
+
+  /* navbar */
+  --ifm-navbar-link-color: #FF9D00; /* orange */
+  --ifm-navbar-link-hover-color: #ffffff;
+  --ifm-navbar-background-color: black;
+  --ifm-navbar-item-padding-horizontal: 1.25rem;
+
+  /*footer*/
+  --ifm-footer-background-color: #fff; /* #303846 */
+  --ifm-footer-link-color: #000;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar */
+.navbar {
+  background-image: url("@site/static/img/hero/hero-pyrsia-bg-dots.png");
+  background-position: center;
+  background-repeat: repeat;
+}
+@media only screen and (min-width: 996px) {
+  .navbar {
+    justify-content: center;
+  }
+  .navbar .navbar__inner {
+    max-width: 1200px;
+  }
+}
+
+/*footer*/
+.footer {
+  position: relative;
+  padding-top: 90px;
+}
+.footer .footer__link-separator {
+  display: none;
+}
+.footer .footer__logo {
+  position: absolute;
+  top: -125px;
+  margin-top: 0;
+}
+/*buttons*/
+.button.button--pyrsia-cta {
+  background: linear-gradient(270deg, #FF9900 -8%, #82231E 83%),
+  linear-gradient(270deg, #FF9900 -8%, #82231E 83%),
+  linear-gradient(270deg, #FF9900 -8%, #82231E 83%);
+  border: none;
+  border-radius: 45px;
+  color: #fff;
+}
+
+/* font size */
+.fs24 {
+  font-size: 24px;
+}
+.fs30 {
+  font-size: 30px;
+}
+.fs40 {
+  font-size: 40px;
+}
+.fw700 {
+  font-weight: 700; /* bold */
+}
+.fw500 {
+  font-weight: 500; /* regular */
+}
+
+/* others */
+.pos-absolute {
+  position: absolute;
+}
+.pos-relative {
+  position: relative;
+}
+.displayFlex {
+  display: flex;
+}
+.alignItemsCenter {
+  align-items: center;
+}
+.justifyContentCenter {
+  justify-content: center;
+}
+
+/* hero styles */
+.hero__subtitle {
+  line-height: 1.25;
+}
+.hero__worldmap {
+  top: 100px;
+  right: 0;
+}
+
+/*colors*/
+.colorWhite {
+  color: #fff;
+}
+.bgColorBlue1 {
+  background-color: #174E6C;
+}
+.txtColorBlue1 {
+  color: #174E6C;
+}
