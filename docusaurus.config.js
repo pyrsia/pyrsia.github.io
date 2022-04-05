@@ -9,7 +9,7 @@ const config = {
   title: 'Pyrsia',
   tagline: 'Zero-trust decentralized package network',
   url: 'https://markus-jf.github.io/',
-  baseUrl: '/',
+  baseUrl: '/website-pyrsia/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon.png',
