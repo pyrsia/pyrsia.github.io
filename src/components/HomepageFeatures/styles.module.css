@@ -8,8 +8,12 @@
 }
 
 .featureSvg {
-  /*height: 200px;*/
-  width: 200px;
+  width: 160px;
+}
+@media screen and (min-width: 768px) {
+  .featureSvg {
+    width: 200px;
+  }
 }
 
 .iconDiv {

@@ -56,7 +56,7 @@ const FeatureWide = [
 
 function Feature({ title, description, linktitle, linktarget, iswide}) {
   return (
-    <div className={clsx('col', {'col--4' : !iswide}, {'col--12' : iswide})}>
+    <div className={clsx('col padding-top--lg', {'col--4 padding-bottom--lg' : !iswide}, {'col--12' : iswide})}>
       <div className="padding-horizontal--md text--center">
         <h3 className='fw700'>{title}</h3>
         <div className={`padding-bottom--sm ${iswide ? styles.featureDescWide : styles.featureDesc}`}>{description}</div>
@@ -84,7 +84,7 @@ export default function HomepagePkgFeatures() {
                       </h2>
                   </div>
               </div>
-              <div className="row padding-bottom--xl">
+              <div className="row padding-bottom--lg">
                   {FeatureList.map((props, idx) => (
                       <Feature key={idx} {...props} />
                   ))}

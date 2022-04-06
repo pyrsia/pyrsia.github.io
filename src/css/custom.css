@@ -84,6 +84,7 @@
 .footer .footer__logo {
   position: absolute;
   top: -125px;
+  left: calc((100% - 118px) / 2);
   margin-top: 0;
 }
 .docs-doc-page .footer {
@@ -98,9 +99,10 @@
   border: none;
   border-radius: 45px;
   color: #fff;
+  z-index: 5;
 }
 
-/* font size */
+/* font settings */
 .fs24 {
   font-size: 24px;
 }
@@ -108,7 +110,12 @@
   font-size: 30px;
 }
 .fs40 {
-  font-size: 40px;
+  font-size: 35px;
+}
+@media screen and (min-width: 768px) {
+  .fs40 {
+    font-size: 40px;
+  }
 }
 .fw700 {
   font-weight: 700; /* bold */
@@ -137,6 +144,7 @@
 /* hero styles */
 .hero__subtitle {
   line-height: 1.25;
+  z-index: 5;
 }
 .hero__worldmap {
   top: 100px;

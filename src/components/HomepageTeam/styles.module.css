@@ -8,7 +8,11 @@
 }
 
 .iconDiv {
-  padding: 0 70px 10px 70px;
+  padding: 0 70px 50px 70px;
+}
+
+.descriptionXl {
+  padding-bottom: 250px;
 }
 
 @media screen and (min-width: 996px) {
@@ -19,6 +23,5 @@
   .descriptionXl {
     max-width: 1000px;
     margin: 0 auto;
-    padding-bottom: 250px;
   }
 }
