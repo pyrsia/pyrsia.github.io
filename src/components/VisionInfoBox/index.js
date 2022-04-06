@@ -10,10 +10,10 @@ export default function VisionInfoBox(props) {
                 <div className="container">
                     <div className={clsx('margin-vert-lg padding-vert--md bgColorBlue1', styles.theBox)}>
                         <div className="row">
-                            <div className={clsx('col col--6')}>
+                            <div className={clsx('col col--5')}>
                                 <Title title={props.title} />
                             </div>
-                            <div className="col col--6 ">
+                            <div className="col col--7">
                                 <div className="padding-right--lg">
                                     <ContentBox1 />
                                 </div>
