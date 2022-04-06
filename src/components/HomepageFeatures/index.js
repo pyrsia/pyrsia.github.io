@@ -37,7 +37,7 @@ function Feature({Svg, title, description}) {
   return (
     <div className={clsx('row')}>
         <div className={clsx('col col--12')}>
-            <div className="displayFlex">
+            <div className="displayFlex padding-vert--sm">
                   <div className={styles.iconDiv}>
                     <Svg className={styles.featureSvg} role="img" />
                   </div>
@@ -57,7 +57,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="row">
             <div className={clsx('col col--6 displayFlex fs30 alignItemsCenter text--center')}>
-                <p>Pyrsia enables developers to quickly<br/> and easily leverage any package<br/> with confidence and transparency.</p>
+                <p className={clsx('padding-vert--md')}>Pyrsia enables developers to quickly<br/> and easily leverage any package<br/> with confidence and transparency.</p>
             </div>
             <div className={clsx('col col--6')}>
           {FeatureList.map((props, idx) => (

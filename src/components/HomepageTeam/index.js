@@ -29,10 +29,10 @@ export default function HomepageTeam() {
             <div className="container">
                 <div className="row">
                     <div className={clsx('col col--12 text--center padding-bottom--lg')}>
-                        <h2 className="fs40 padding-bottom--xl">
+                        <h2 className="fs40 padding-bottom--lg margin-bottom--none">
                             <span className="colorWhite">THE TEAM BEHIND PYRSIA</span>
                         </h2>
-                        <div className={`text--center ${styles.description}`}>
+                        <div className={`text--center padding-top--lg ${styles.description}`}>
                             Pyrsia is driven by leading companies in the software industry. As a prospective project of
                             the OpenSSF we are building on decades of experience developing, deploying and securing code
                             pipelines. With companies like JFrog supporting this project, we are leveraging our
