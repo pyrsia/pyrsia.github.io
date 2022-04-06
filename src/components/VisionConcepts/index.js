@@ -94,7 +94,7 @@ export default function VisionConcepts() {
                         <h2 className="fs40 fw700 colorWhite">KEY CONCEPTS</h2>
                     </div>
                 </div>
-                <div className="row">
+                <div className={clsx('row', styles.featureRow)}>
                         {FeatureList.map((props, idx) => (
                             <Feature key={idx} {...props} />
                         ))}

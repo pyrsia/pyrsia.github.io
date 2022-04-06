@@ -73,7 +73,7 @@ const FeatureList = [
 function Feature({title, description}) {
     return (
         <div className={clsx('col col--4')}>
-            <div className="padding-horizontal--md padding-bottom--lg padding-top--md">
+            <div className="padding-horiz--md padding-bottom--lg padding-top--md">
                 <h3 className='fs24 fw700'>{title}</h3>
                 <div className={clsx('padding-bottom--sm', styles.featureDesc)}>{description}</div>
             </div>
