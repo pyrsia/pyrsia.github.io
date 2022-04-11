@@ -17,9 +17,9 @@ export default function VisionTop() {
                 <div className="row padding-bottom--xl">
                     <div className="col col--12">
                         <h3 className="fs24 margin-bottom--none">THE PROBLEM WITH OPEN SOURCE SECURITY</h3>
-                        <p className={styles.paragraph}>Not knowing where all your software comes from means hard-to-spot risks to the integrity
-                            of your services. Without constant identity checks and safety protocols for keys and secrets,
-                            open source dependencies can open the door to breaches, exploits and supply chain attacks.</p>
+                        <p className={styles.paragraph}>Not knowing where all your software comes from means <b>hard-to-spot risks to the integrity
+                            of your services</b>. Without constant identity checks and safety protocols for keys and secrets,
+                            <b>open source dependencies can open the door to breaches, exploits and supply chain attacks</b>.</p>
                         <h3 className="fs24 margin-bottom--none">WHERE DOES PYRSIA FIT IN...</h3>
                         <p className={styles.paragraph}><b>What does Pyrsia address in SLSA's treat landscape?</b><br />
                             Firmly the "dependencies" section. The only way to obtaining confidence is to have detailed
