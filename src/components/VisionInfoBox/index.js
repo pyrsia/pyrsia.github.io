@@ -29,7 +29,7 @@ export default function VisionInfoBox(props) {
                 <div className="container">
                     <div className={clsx('margin-vert-lg padding-vert--md bgColorBlue1', styles.theBox)}>
                         <div className="row">
-                            <div className={clsx('col col--3')}>
+                            <div className={clsx('col col--3 displayFlex alignItemsCenter')}>
                                 <Title title={props.title} />
                             </div>
                             <div className="col col--9 padding-left--none">
