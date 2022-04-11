@@ -9,7 +9,7 @@ description: >
 ## Installation Prerequisites
 
 Operating Systems
-* Ubuntu Focal
+* Ubuntu Focal (x86_64)
 
 ## Installation Commands
 
