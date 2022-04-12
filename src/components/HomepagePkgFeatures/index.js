@@ -12,7 +12,7 @@ const FeatureList = [
       </>
     ),
       linktitle: 'Read More >',
-      linktarget: '#',
+      linktarget: '/vision/#visionfeatures',
       iswide: false,
   },
   {
@@ -23,7 +23,7 @@ const FeatureList = [
       </>
     ),
       linktitle: 'Join The Community >',
-      linktarget: '#',
+      linktarget: '/vision/#visionfeatures',
       iswide: false,
   },
   {
@@ -34,7 +34,7 @@ const FeatureList = [
       </>
     ),
       linktitle: 'Learn How >',
-      linktarget: '#',
+      linktarget: '/vision/#visionfeatures',
       iswide: false,
   },
 ];
@@ -49,7 +49,7 @@ const FeatureWide = [
             </>
         ),
         linktitle: 'Read More >',
-        linktarget: '#',
+        linktarget: '/vision/#visionfeatures',
         iswide: true,
     }
 ];

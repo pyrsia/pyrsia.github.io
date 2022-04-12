@@ -83,7 +83,7 @@ function Feature({title, description}) {
 
 export default function VisionFeatures() {
     return (
-        <section className={styles.features}>
+        <section className={styles.features} id="visionfeatures">
             <div className={clsx('container', styles.bgTorch)}>
                 <div className="row">
                     <div className={clsx('col col--12 text--center padding-bottom--lg')}>
