@@ -95,39 +95,60 @@ const config = {
         },
         links: [
           {
-            html: `
-            <a href="#" target="_blank" rel="noreferrer noopener" class="footer__link-item">
-            Privacy Policy
-            </a>
-          `,
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs',
+              },
+            ],
           },
           {
-            html: `
-            | <a href="#" target="_blank" rel="noreferrer noopener" class="footer__link-item">
-            Cookies Policy
-            </a>
-          `,
+            title: 'Community',
+            items: [
+              {
+                label: 'Google',
+                href: 'https://groups.google.com/g/pyrsia',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/PyrsiaOSS',
+              },
+              {
+                label: 'OpenSSF Slack',
+                href: 'https://openssf.slack.com/archives/C0302CVKPA5',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/channel/UClPQKloIElvJk7EdSST3W5g',
+              },
+            ],
           },
           {
-            html: `
-            | <a href="#" target="_blank" rel="noreferrer noopener" class="footer__link-item">
-            CCPA Employee & Application Privacy Notice
-            </a>
-          `,
+            title: 'About Us',
+            items: [
+              {
+                label: 'The Team',
+                to: '/',
+              },
+            ]
           },
           {
-            html: `
-            | <a href="#" target="_blank" rel="noreferrer noopener" class="footer__link-item">
-            Cookies Settings
-            </a>
-          `,
-          },
-          {
-            html: `
-            | <a href="#" target="_blank" rel="noreferrer noopener" class="footer__link-item">
-            Accessibility Mode
-            </a>
-          `,
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/pyrsia',
+              },
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/pyrsia',
+              },
+            ],
           },
         ],
         copyright: ` © ${new Date().getFullYear()} JFrog Ltd All Rights Reserved`,
