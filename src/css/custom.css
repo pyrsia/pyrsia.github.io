@@ -30,6 +30,8 @@
   --ifm-navbar-link-hover-color: #ffffff;
   --ifm-navbar-background-color: black;
   --ifm-navbar-item-padding-horizontal: 1.25rem;
+  /* nav mobile*/
+  --ifm-menu-color: #FF9D00; /* orange */
 
   /*footer*/
   --ifm-footer-background-color: #fff; /* #303846 */
@@ -63,6 +65,9 @@
   background-image: url("@site/static/img/hero/hero-pyrsia-bg-dots.png");
   background-position: center;
   background-repeat: repeat;
+}
+.navbar .navbar__toggle svg {
+  stroke: #FF9D00; /* orange */
 }
 @media only screen and (min-width: 996px) {
   .navbar {
