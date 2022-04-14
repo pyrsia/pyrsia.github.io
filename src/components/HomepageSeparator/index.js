@@ -9,10 +9,10 @@ export default function HomepageSeparator() {
     return (
         <section className={styles.separator}>
             <div className="row">
-                <div className={clsx(styles.iconDiv)}>
+                <div className="col col--12 text--center">
                     <img className={clsx('pos-relative', styles.imgTorch)} src={useBaseUrl(urlTorch)}/>
+                    <div className={clsx( 'pos-relative', styles.redLine)}></div>
                 </div>
-                <div className={clsx( 'pos-relative', styles.redLine)}></div>
             </div>
         </section>
     );

@@ -63,7 +63,6 @@
 /* Navbar */
 .navbar {
   background-image: url("@site/static/img/hero/hero-pyrsia-bg-dots.png");
-  background-position: center;
   background-repeat: repeat;
 }
 .navbar .navbar__toggle svg path {
