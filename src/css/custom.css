@@ -65,6 +65,7 @@
   background-image: url("@site/static/img/hero/hero-pyrsia-bg-dots.png");
   background-repeat: repeat;
   background-position-y: 2px;
+  background-position-x: center;
 }
 .navbar .navbar__toggle svg path {
   stroke: #FF9D00; /* orange */
