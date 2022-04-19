@@ -13,9 +13,31 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  # This workflow contains a 2 jobs called "community-health-files" and "build"
+  community-health-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: pyrsia/.github
+      - name: set custom edit URLs
+        shell: python
+        run: |
+          import os
+          for file in os.listdir('.'):
+            if file.endswith('.md'):
+              new_line = '---\ncustom_edit_url: https://github.com/pyrsia/.github/edit/main/{}\n---\n\n'.format(file)
+              with open(file, 'r+') as file:
+                content = file.read()
+                file.seek(0)
+                file.write(new_line + content)
+      - uses: actions/upload-artifact@v2
+        with:
+          name: health-files
+          path: '*.md'
   build:
     # The type of runner that the job will run on
+    needs: community-health-files
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -26,6 +48,11 @@ jobs:
         with:
           node-version: 14.x
           cache: npm
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: health-files
+          path: docs/developer
 
       # Runs a set of commands using the runners shell
       - name: npm docusaurus build
