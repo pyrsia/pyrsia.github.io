@@ -64,6 +64,7 @@
 .navbar {
   background-image: url("@site/static/img/hero/hero-pyrsia-bg-dots.png");
   background-repeat: repeat;
+  background-position-y: 2px;
 }
 .navbar .navbar__toggle svg path {
   stroke: #FF9D00; /* orange */
@@ -158,6 +159,11 @@
 .hero__worldmap {
   top: 100px;
   right: 0;
+}
+@media screen and (min-width: 1200px) {
+  .hero__worldmap {
+    right: 10%;
+  }
 }
 
 /*colors*/
