@@ -1,5 +1,5 @@
 Package: pyrsia
-Version: 0.1.0+1396
+Version: 0.1.0+1399
 Architecture: amd64
 Vcs-Browser: https://github.com/pyrsia/pyrsia
 Vcs-Git: https://github.com/pyrsia/pyrsia
@@ -8,11 +8,11 @@ Installed-Size: 17077
 Depends: jq
 Priority: optional
 Section: devel
-Filename: pool/main/p/pyrsia/pyrsia_0.1.0+1396_amd64.deb
-Size: 4865684
-SHA256: 66e97fcee4f94547c9279a6ac4e127c60670221a0776e82a0d2a1b56dfd06cdd
-SHA1: fa5015482dd781e697ba7224e9904c96b231b6e6
-MD5sum: 9747bd90fbbbc501069822be7f0bf152
+Filename: pool/main/p/pyrsia/pyrsia_0.1.0+1399_amd64.deb
+Size: 4866188
+SHA256: c3f65784db70c59c65b52f39d3ac5322ec9c2a48318defd64e3122092dc935f0
+SHA1: 188583f554af292e27a4956fdd64df88413167f8
+MD5sum: 061215eaa6f992e52f5ba34d2415a4d9
 Description: Prysia Node and CLI
  ![logo](https://raw.githubusercontent.com/pyrsia/.github/main/images/logo-color.svg)
  .
@@ -75,7 +75,7 @@ Description: Prysia Node and CLI
  You can see this using the CLI's "status" command:
  .
  ```sh
- $ ./pyrsia node -s
+ $ ./pyrsia status
  Connected Peers Count:   17 # Shows the number of visible peers
  Artifacts Count:         12 # Total number of artifacts cached locally
  Total Disk Available:    10.5 GB
