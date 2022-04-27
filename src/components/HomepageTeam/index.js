@@ -1,26 +1,43 @@
 import React from 'react';
 import clsx from 'clsx';
 // import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const FeatureList = [
     {
         Svg: require('@site/static/img/logo-jfrog.svg').default,
+        type: "svg",
     },
     {
         Svg: require('@site/static/img/logo-deployhub.svg').default,
+        type: "svg",
     },
     {
         Svg: require('@site/static/img/logo-docker.svg').default,
+        type: "svg",
+    },
+    {
+        url: '/img/logo-lodgON-600x150.png',
+        type: "img",
     },
 ];
 
-function Feature({Svg}) {
-    return (
-        <div className={styles.iconDiv}>
-            <Svg role="img"/>
-        </div>
-    );
+function Feature({Svg, type, url}) {
+    if ( type == "svg") {
+        return (
+                <div className={styles.iconDiv}>
+                    <Svg role="img"/>
+                </div>
+        );
+    } else {
+        return (
+            <div className={styles.iconDiv}>
+                <img className={styles.logoPng} src={useBaseUrl(url)}/>
+            </div>
+
+        );
+    }
 }
 
 export default function HomepageTeam() {
