@@ -1,0 +1,7 @@
+Description: pyrsia/pyrsia.github.io
+Codename: focal
+Architectures: amd64
+Components: main
+SignWith: 63A7DFDEF3B11950916E0146D958ECEF78292033
+
+

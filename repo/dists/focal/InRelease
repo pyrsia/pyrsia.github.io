@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: focal
+Date: Tue, 26 Apr 2022 18:59:35 UTC
+Architectures: amd64
+Components: main
+Description: pyrsia/pyrsia.github.io
+MD5Sum:
+ d3684fc09e82682027bcebe3bb375b17 5478 main/binary-amd64/Packages
+ 44a5463f3aa9c9e03ee4709ebcb035a3 2560 main/binary-amd64/Packages.gz
+ 352f4db74935c636804afa9bc1dba2ad 73 main/binary-amd64/Release
+SHA1:
+ bd70462fc5a1d0a0cf9b98510e3cdef14cc4f68c 5478 main/binary-amd64/Packages
+ 99f3268eb4c505e353cfe270a39330ebb7140041 2560 main/binary-amd64/Packages.gz
+ 8b7fad2225f42e2993ed16a66524233d13a6fea7 73 main/binary-amd64/Release
+SHA256:
+ b7c330dfb4741b366fa4447eb711abc006087cce158d94e3a363e441c6fc135c 5478 main/binary-amd64/Packages
+ 00ce074da764ca39836610689aa25e22876afb1dfcf7835d765d3745a5269b1f 2560 main/binary-amd64/Packages.gz
+ 3a2c658e6494be8035cb656ee847c4c668fddec33addc7ca5218c81e775e1cb1 73 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEY6ff3vOxGVCRbgFG2Vjs73gpIDMFAmJoQRcACgkQ2Vjs73gp
+IDPTvw//TFEHJE3aAGROb/u++0zsH2FF4VXRY1ZJRQVYv2WB5m4Ccs3TOXWwH9f7
+SMnFS6ON/KGQz7FyZnh7d0RMeUAWp/upfRgywOkOLBhUD/kxg7A99SPJoDWbJw+b
+tzp+wnYIH0PfjfrJ9GtmX3IFTC7A6H5gnsHnoHUf7yHvaLFgCqYDsei3ooL+HDQn
+MkR752StXxfiGSACOYxKYUKJJ6SU4OM/QslVr9jq2W/iB4RI3LZTGuLtlO8yi17n
+9iz/GW/6DBtxfr67ZO2HPw/+LxBFPtPfKtI1NU+DNylABaA9fWwzhasXMp2NYfyi
+mcsZ07iHUROCHJN27H4ikhfNnI1yYbThz8BN3bzCeIChuRCqmodu7475/RBrjvaz
+vS1JlkMQ4c1NtpsDL42PGF3ryT4gMZlOXQdWvxsbDMBjLeg2r5X1VXajfQFH+VMe
+iMnAjQJyPzTFp58mSGrA1wDcxpOpdkh6APCtQgjX20T4NjAOmfMdJjkwWVOdJOui
+2xLp6tGNGYdb2EInxK1iptH6IYPmYzcpk+iCBVsnCm+oquXBBrZbd8bI/s5cRtnx
+Rdt17hj/8wxwb1gCF93VXkBlL70rSl1YUksnPXnsKHL7i9D4PplB7SjkO+ooGI+C
+uYcLOvvjQK6gAtaZV8rze9Iix7AZ1W1j8K+sWezIDLYMw+9VZJo=
+=eZ/W
+-----END PGP SIGNATURE-----
