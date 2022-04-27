@@ -9,7 +9,7 @@ const config = {
   title: 'Pyrsia',
   tagline: 'Zero-trust decentralized package network',
   url: 'https://pyrsia.io/',
-  baseUrl: '',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon-32x32.png',
