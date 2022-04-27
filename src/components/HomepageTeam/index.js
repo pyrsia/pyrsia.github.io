@@ -18,7 +18,7 @@ const FeatureList = [
         type: "svg",
     },
     {
-        url: '/img/logo-lodgON-600x150.png',
+        url: '/img/logo-lodgON-2500x625.jpg',
         type: "img",
     },
 ];
