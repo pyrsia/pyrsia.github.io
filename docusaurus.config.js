@@ -66,17 +66,17 @@ const config = {
             label: 'Technology',
             position: 'left'
           },
-          {
-            type: 'doc',
-            docId: 'developer/index',
-            label: 'Developers Hub',
-            position: 'left'
-          },
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left'
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'developer/index',
+          //   label: 'Developers Hub',
+          //   position: 'left'
+          // },
+          // {
+          //   to: '/blog',
+          //   label: 'Blog',
+          //   position: 'left'
+          // },
           {
             href: 'https://github.com/pyrsia',
             label: 'GitHub',
