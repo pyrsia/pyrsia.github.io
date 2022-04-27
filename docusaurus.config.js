@@ -62,7 +62,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'technology/overview',
+            docId: 'technology/quick-installation',
             label: 'Technology',
             position: 'left'
           },
