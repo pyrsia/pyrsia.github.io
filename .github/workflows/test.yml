@@ -1,0 +1,14 @@
+name: Test
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: npm docusaurus build
+        run: |
+          npm ci
+          npm run build
