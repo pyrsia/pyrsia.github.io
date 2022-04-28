@@ -51,7 +51,7 @@ jobs:
           node-version: 14.x
           cache: npm
 
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: health-files
           path: docs/developer
