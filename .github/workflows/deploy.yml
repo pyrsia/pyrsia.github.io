@@ -31,7 +31,7 @@ jobs:
                 content = file.read()
                 file.seek(0)
                 file.write(new_line + content)
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: health-files
           path: '*.md'
