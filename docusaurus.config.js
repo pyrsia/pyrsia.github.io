@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon-32x32.png',
-  organizationName: 'markus-jf', // Usually your GitHub org/user name.
-  projectName: 'website-pyrsia', // Usually your repo name.
+  organizationName: 'pyrsia', // Usually your GitHub org/user name.
+  projectName: 'pyrsia.github.io', // Usually your repo name.
   trailingSlash: true,
 
   presets: [
@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/pyrsia/pyrsia.github.io/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/pyrsia/pyrsia/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,7 +62,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'technology/overview',
+            docId: 'technology/quick-installation',
             label: 'Technology',
             position: 'left'
           },
