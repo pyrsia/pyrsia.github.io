@@ -1,23 +1,16 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Deploy to GitHub Pages
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *'
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a 2 jobs called "community-health-files" and "build"
   community-health-files:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: pyrsia/.github
       - name: set custom edit URLs
@@ -31,39 +24,53 @@ jobs:
                 content = file.read()
                 file.seek(0)
                 file.write(new_line + content)
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: health-files
           path: '*.md'
-  build:
-    # The type of runner that the job will run on
-    needs: community-health-files
+  devs-hub-files:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0 
-      - uses: actions/setup-node@v2
+          repository: pyrsia/pyrsia
+      - name: set custom edit URLs
+        shell: python
+        run: |
+          import glob
+          for file in glob.iglob('docs/**/*.md', recursive=True):
+            new_line = '---\ncustom_edit_url: https://github.com/pyrsia/pyrsia/edit/main/{}\n---\n\n'.format(file)
+            with open(file, 'r+') as file:
+              content = file.read()
+              file.seek(0)
+              file.write(new_line + content)
+      - uses: actions/upload-artifact@v3
+        with:
+          name: devs-files
+          path: 'docs/**/*.md'
+  deploy:
+    needs: community-health-files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 14.x
           cache: npm
-
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: health-files
           path: docs/developer
-
-      # Runs a set of commands using the runners shell
-      - name: npm docusaurus build
-        run: |
+      - uses: actions/download-artifact@v3
+        with:
+          name: devs-files
+          path: docs/developer
+      - run: |
           npm ci
           npm run build
       - uses: peaceiris/actions-gh-pages@v3
         with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./build
-            keep_files: true
-            cname: pyrsia.io
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
