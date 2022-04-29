@@ -34,7 +34,7 @@ Maintainer Contributors attend meetings on a frequent regular basis, stepping up
 - **Chairs:**
 Chairs provide additional project management support, distribute issues to beginners, and manage meetings and recordings. Chairs must attend most meetings and help new contributors be successful.
 
-We encourage you to participate at the level of your choice. Understand Submittal Reviews
+We encourage you to participate at the level of your choice.
 
 ## Understand Submittal Reviews
 
