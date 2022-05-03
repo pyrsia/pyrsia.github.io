@@ -3,11 +3,14 @@ name: Project Board Automation - Pyrsia Development
 on:
   issues:
     types: [opened, reopened]
+  pull_request_target:
+    types: [opened, reopened]
 
 jobs:
   triage-new-issues:
     runs-on: ubuntu-latest
     if: |
+      github.repository_owner == 'pyrsia' &&
       github.event_name == 'issues' &&
       (github.event.action == 'opened' || github.event.action == 'reopened')
     steps:
@@ -21,4 +24,17 @@ jobs:
           project: Pyrsia Development
           action: add
           column: To Do
+          repo-token: ${{ secrets.ORG_ACCESS_TOKEN }}
+
+  in-progress-new-prs:
+    runs-on: ubuntu-latest
+    if: |
+      github.repository_owner == 'pyrsia' &&
+      github.event_name == 'pull_request_target' &&
+      (github.event.action == 'opened' || github.event.action == 'reopened')
+    steps:
+      - uses: alex-page/github-project-automation-plus@v0.8.1
+        with:
+          project: Pyrsia Development
+          column: In Progress
           repo-token: ${{ secrets.ORG_ACCESS_TOKEN }}
