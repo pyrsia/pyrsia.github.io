@@ -10,16 +10,12 @@ const FeatureList = [
         type: "svg",
     },
     {
-        Svg: require('@site/static/img/logo-deployhub.svg').default,
-        type: "svg",
-    },
-    {
         Svg: require('@site/static/img/logo-docker.svg').default,
         type: "svg",
     },
     {
-        url: '/img/logo-lodgON-2500x625.jpg',
-        type: "img",
+        Svg: require('@site/static/img/logo-deployhub.svg').default,
+        type: "svg",
     },
 ];
 
