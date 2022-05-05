@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Pyrsia',
-  tagline: 'Zero-trust decentralized package network',
+  tagline: 'Decentralized Package Network',
   url: 'https://pyrsia.io/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
@@ -66,12 +66,12 @@ const config = {
             label: 'Technology',
             position: 'left'
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'developer/index',
-          //   label: 'Developers Hub',
-          //   position: 'left'
-          // },
+          {
+            type: 'doc',
+            docId: 'developer/index',
+            label: 'Developers Hub',
+            position: 'left'
+          },
           // {
           //   to: '/blog',
           //   label: 'Blog',
