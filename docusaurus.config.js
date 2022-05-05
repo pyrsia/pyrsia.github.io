@@ -26,6 +26,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/pyrsia/pyrsia.github.io/edit/main/',
+          remarkPlugins: [require('mdx-mermaid')],
         },
         blog: {
           showReadingTime: true,
