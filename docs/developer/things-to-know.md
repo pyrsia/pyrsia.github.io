@@ -20,7 +20,7 @@ Read the community meeting notes, watch meeting recordings and join the Pyrsia S
 
 ## Understand Submittal Reviews
 
-All submissions, from code to content, will require a review. Where possible, GitHub pull requests will be used for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more information on using pull requests. For more details, check out out [Contributing Guidelines](https://pyrsia.io/docs/developer/contributing/)
+All submissions, from code to content, will require a review. Where possible, GitHub pull requests will be used for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more information on using pull requests. For more details, check out our [Contributing Guidelines](https://pyrsia.io/docs/developer/contributing/).
 
 ## Learn the Community Expectations and Roles
 
