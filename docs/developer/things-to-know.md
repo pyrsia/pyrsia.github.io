@@ -1,6 +1,6 @@
 # Things You Should Know
 
-Before contributing to Pyrsia,you should know a few things. From completing a contributor license agreement to understanding the different levels of participation, the below information will help you get started.
+Before contributing to Pyrsia, you should know a few things. From completing a contributor license agreement to understanding the different levels of participation, the below information will help you get started.
 
 ## Sign the CLA
 
@@ -17,6 +17,10 @@ Just like all open source communities, Pyrsia has a 'Code of Conduct'. Please ma
 Read the community meeting notes, watch meeting recordings and join the Pyrsia Slack channel on OpenSSF Slack. This is the best way to get caught up and start a conversation with the team.
 - [Google Groups](https://groups.google.com/g/pyrsia)
 - [Join Slack](https://openssf.slack.com/archives/C02RC7Y5EUV)
+
+## Understand Submittal Reviews
+
+All submissions, from code to content, will require a review. Where possible, GitHub pull requests will be used for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more information on using pull requests. For more details, check out out [Contributing Guidelines](https://pyrsia.io/docs/developer/contributing/)
 
 ## Learn the Community Expectations and Roles
 
@@ -35,7 +39,3 @@ Maintainer Contributors attend meetings on a frequent regular basis, stepping up
 Chairs provide additional project management support, distribute issues to beginners, and manage meetings and recordings. Chairs must attend most meetings and help new contributors be successful.
 
 We encourage you to participate at the level of your choice.
-
-## Understand Submittal Reviews
-
-All submissions, from code to content, will require a review. Where possible, GitHub pull requests will be used for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more information on using pull requests.
