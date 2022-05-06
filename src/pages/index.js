@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className="hero__logo">
             <img src={useBaseUrl('/img/hero/hero-pyrsia-logo.svg')} />
         </div>
-        <p className="hero__subtitle padding-top--md pos-relative fs40"><b><i>ZERO-TRUST DECENTRALIZED</i></b><br/>PACKAGE NETWORK</p>
+        <p className="hero__subtitle padding-top--md pos-relative fs40"><b><i>DECENTRALIZED PACKAGE</i></b><br/>NETWORK</p>
         <div className={clsx('padding-top--md', styles.buttons)}>
           <Link
             className="button button--secondary button--pyrsia-cta button--lg pos-relative"
