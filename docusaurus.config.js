@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Pyrsia',
+  title: 'Pyrsia.io',
   tagline: 'Decentralized Package Network',
   url: 'https://pyrsia.io/',
   baseUrl: '/',
@@ -44,7 +44,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'robots', content: 'noindex, nofollow'}],
+      metadata: [{name: 'robots', content: 'all'}],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true, // remove light dark switch
