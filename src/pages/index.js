@@ -39,8 +39,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`The Zero-Trust Decentralized Package Network | ${siteConfig.title}.io`}
+      description="The Pyrsia project allows developers leverage any package with confidence and transparency.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
