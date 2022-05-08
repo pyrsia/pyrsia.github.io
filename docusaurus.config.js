@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Pyrsia.io',
   tagline: 'Decentralized Package Network',
-  url: 'https://pyrsia.io/',
+  url: 'https://pyrsia.io',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
