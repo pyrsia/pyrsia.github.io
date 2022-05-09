@@ -39,7 +39,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`The Zero-Trust Decentralized Package Network`}
+      title={`The Decentralized Package Network`}
       description="The Pyrsia project allows developers leverage any package with confidence and transparency.">
       <HomepageHeader />
       <main>
