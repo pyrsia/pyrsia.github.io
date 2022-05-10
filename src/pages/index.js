@@ -23,7 +23,7 @@ function HomepageHeader() {
         <div className={clsx('padding-top--md', styles.buttons)}>
           <Link
             className="button button--secondary button--pyrsia-cta button--lg pos-relative"
-            to="/docs/technology/quick-installation/">
+            to="/docs/tutorials/quick-installation/">
               Try the Pyrsia Demo >
           </Link>
         </div>

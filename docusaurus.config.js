@@ -63,14 +63,14 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'technology/quick-installation',
-            label: 'Technology',
+            docId: 'tutorials/quick-installation',
+            label: 'Tutorials',
             position: 'left'
           },
           {
             type: 'doc',
-            docId: 'developer/index',
-            label: 'Developers Hub',
+            docId: 'get_involved/readme',
+            label: 'Get Involved',
             position: 'left'
           },
           // {
