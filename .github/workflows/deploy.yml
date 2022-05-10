@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
   schedule:
     - cron: '0 0 * * *'
 
@@ -68,7 +69,8 @@ jobs:
       - run: |
           npm ci
           npm run build
-      - uses: peaceiris/actions-gh-pages@v3
+      - if: github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
