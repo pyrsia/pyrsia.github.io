@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
   schedule:
     - cron: '0 0 * * *'
 
@@ -38,7 +39,7 @@ jobs:
         shell: python
         run: |
           import glob
-          for file in glob.iglob('docs/**/*.md', recursive=True):
+          for file in glob.iglob('docs/**/*.md*', recursive=True):
             new_line = '---\ncustom_edit_url: https://github.com/pyrsia/pyrsia/edit/main/{}\n---\n\n'.format(file)
             with open(file, 'r+') as file:
               content = file.read()
@@ -47,9 +48,9 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: devs-files
-          path: 'docs/**/*.md'
+          path: 'docs/**/*.md*'
   deploy:
-    needs: community-health-files
+    needs: [community-health-files, devs-hub-files]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -60,15 +61,16 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: health-files
-          path: docs/developer
+          path: docs/get_involved
       - uses: actions/download-artifact@v3
         with:
           name: devs-files
-          path: docs/developer
+          path: docs
       - run: |
           npm ci
           npm run build
-      - uses: peaceiris/actions-gh-pages@v3
+      - if: github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
