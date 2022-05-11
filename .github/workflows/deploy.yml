@@ -39,7 +39,7 @@ jobs:
         shell: python
         run: |
           import glob
-          for file in glob.iglob('docs/**/*.md', recursive=True):
+          for file in glob.iglob('docs/**/*.md*', recursive=True):
             new_line = '---\ncustom_edit_url: https://github.com/pyrsia/pyrsia/edit/main/{}\n---\n\n'.format(file)
             with open(file, 'r+') as file:
               content = file.read()
@@ -48,7 +48,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: devs-files
-          path: 'docs/**/*.md'
+          path: 'docs/**/*.md*'
   deploy:
     needs: [community-health-files, devs-hub-files]
     runs-on: ubuntu-latest
