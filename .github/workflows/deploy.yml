@@ -65,7 +65,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: devs-files
-          path: docs/get_involved
+          path: docs
       - run: |
           npm ci
           npm run build
