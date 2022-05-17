@@ -34,6 +34,9 @@ jobs:
       (github.event.action == 'opened' || github.event.action == 'reopened')
     steps:
       - uses: toshimaru/auto-author-assign@v1.5.0
+      - uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: website
       - uses: alex-page/github-project-automation-plus@v0.8.1
         with:
           project: Pyrsia Development
