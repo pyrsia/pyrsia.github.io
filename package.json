@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "download-main-repo": "wget -c https://github.com/prince-chrismc/pyrsia-sandbox/archive/refs/heads/sidebar-order.tar.gz -O - | tar -xz -C /tmp && node .github/actions/custom-edit-url.js /tmp/pyrsia-sandbox-sidebar-order prince-chrismc/pyrsia-sandbox sidebar-order && cp -r /tmp/pyrsia-sandbox-sidebar-order/docs ./",
+    "download-main-repo": "wget -c https://github.com/pyrsia/pyrsia/archive/refs/heads/main.tar.gz -O - | tar -xz -C /tmp && node .github/actions/custom-edit-url.js /tmp/pyrsia-main pyrsia/pyrsia && cp -r /tmp/pyrsia-main/docs ./",
     "download-community-repo": "wget -c https://github.com/pyrsia/.github/archive/refs/heads/main.tar.gz -O - | tar -xz -C /tmp && node .github/actions/custom-edit-url.js /tmp/.github-main pyrsia/.github && cp /tmp/.github-main/*.md ./docs/get_involved",
     "download-repos": "npm run download-main-repo && npm run download-community-repo",
     "docusaurus": "docusaurus",
