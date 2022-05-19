@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -42,7 +43,7 @@ export default function Home() {
       title={`The Decentralized Package Network`}
       description="The Pyrsia project allows developers leverage any package with confidence and transparency.">
         <Head>
-            <meta property="google-site-verification" content="9IhW0v7-04TrLe9HOtIjF9C4nn_I7zZ5qiuvGcV4DhQ" />
+            <meta name="google-site-verification" content="9IhW0v7-04TrLe9HOtIjF9C4nn_I7zZ5qiuvGcV4DhQ" />
         </Head>
       <HomepageHeader />
       <main>
