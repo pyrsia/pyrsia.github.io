@@ -177,3 +177,7 @@
 .txtColorBlue1 {
   color: #174E6C;
 }
+
+.theme-doc-sidebar-item-link a {
+  color: #000 !important;
+}
