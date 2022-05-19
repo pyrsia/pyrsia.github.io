@@ -41,6 +41,9 @@ export default function Home() {
     <Layout
       title={`The Decentralized Package Network`}
       description="The Pyrsia project allows developers leverage any package with confidence and transparency.">
+        <Head>
+            <meta property="google-site-verification" content="9IhW0v7-04TrLe9HOtIjF9C4nn_I7zZ5qiuvGcV4DhQ" />
+        </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
