@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/homefeatures/icon-lighthouse.svg').default,
     description: (
       <>
-          Signatures provide non-repudiation allowing developers to know the exact source of the packages they need and rely on.
+        Signatures provide non-repudiation allowing developers to know the exact source of the packages they need and rely on.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/homefeatures/icon-column.svg').default,
     description: (
       <>
-          Planned support for all the repositories developers need (e.g Docker, Conan, Go).
+        Planned support for all the repositories developers need (e.g Docker, Conan, Go).
       </>
     ),
   },
@@ -26,27 +26,27 @@ const FeatureList = [
     Svg: require('@site/static/img/homefeatures/icon-goals.svg').default,
     description: (
       <>
-          We care about improving the security posture of open source projects and their supply
-          chains that are critical to the global development of software.
+        We care about improving the security posture of open source projects and their supply
+        chains that are critical to the global development of software.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('row')}>
-        <div className={clsx('col col--12')}>
-            <div className="displayFlex padding-vert--sm">
-                  <div className={styles.iconDiv}>
-                    <Svg className={styles.featureSvg} role="img" />
-                  </div>
-                  <div className="padding-left--md">
-                    <h3>{title}</h3>
-                    <p>{description}</p>
-                  </div>
-            </div>
+      <div className={clsx('col col--12')}>
+        <div className="displayFlex padding-vert--sm">
+          <div className={styles.iconDiv}>
+            <Svg className={styles.featureSvg} role="img" />
+          </div>
+          <div className="padding-left--md">
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </div>
         </div>
+      </div>
     </div>
   );
 }
@@ -56,14 +56,20 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-            <div className={clsx('col col--6 displayFlex fs30 alignItemsCenter text--center')}>
-                <p className={clsx('padding-vert--md')}>Pyrsia enables developers to quickly<br/> and easily leverage any package<br/> with confidence and transparency.</p>
-            </div>
-            <div className={clsx('col col--6')}>
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-            </div>
+          <div className={clsx('col col--12 displayFlex fs40 alignItemsCenter text--center')}>
+            <p className={clsx('padding-vert--md')}>Open source software that helps protect the open source supply chain</p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className={clsx('col col--6 displayFlex fs24 alignItemsCenter text--center')}>
+            <p className={clsx('padding-vert--md')}>Pyrsia enables developers to quickly<br /> and easily leverage any package<br /> with confidence and transparency.</p>
+          </div>
+          <div className={clsx('col col--6')}>
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
       </div>
     </section>
