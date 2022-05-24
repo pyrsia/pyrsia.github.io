@@ -41,6 +41,15 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve('docusaurus-gtm-plugin'),
+      {
+        id: 'GTM-WZ4WCZ8', // GTM Container ID
+      }
+    ]
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
