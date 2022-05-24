@@ -73,11 +73,11 @@ const config = {
             label: 'Get Involved',
             position: 'left'
           },
-          // {
-          //   to: '/blog',
-          //   label: 'Blog',
-          //   position: 'left'
-          // },
+          {
+            to: '/blog',
+            label: 'Blogs',
+            position: 'left'
+          },
           {
             href: 'https://github.com/pyrsia',
             label: 'GitHub',
@@ -90,7 +90,6 @@ const config = {
         logo: {
           alt: 'Pyrsia Logo',
           src: 'img/icon-pyrsia-torch-175.svg',
-          // href: 'https://opensource.facebook.com',
           width: 118,
           height: 183,
         },
@@ -99,8 +98,20 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Overview',
                 to: '/docs',
+              },
+              {
+                label: 'Tutorial',
+                to: '/docs/tutorials',
+              },
+              {
+                label: 'Blogs',
+                to: '/blog',
+              },
+              {
+                label: 'Blog Categories',
+                to: '/blog/tags',
               },
             ],
           },
@@ -112,16 +123,16 @@ const config = {
                 href: 'https://groups.google.com/g/pyrsia',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/PyrsiaOSS',
-              },
-              {
                 label: 'OpenSSF Slack',
                 href: 'https://openssf.slack.com/archives/C0302CVKPA5',
               },
               {
                 label: 'Youtube',
                 href: 'https://www.youtube.com/channel/UClPQKloIElvJk7EdSST3W5g',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/PyrsiaOSS',
               },
             ],
           },
@@ -130,17 +141,13 @@ const config = {
             items: [
               {
                 label: 'The Team',
-                to: '/',
+                to: '/#team',
               },
             ]
           },
           {
             title: 'More',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/pyrsia',
