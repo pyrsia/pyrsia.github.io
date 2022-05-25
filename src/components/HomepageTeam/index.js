@@ -18,6 +18,10 @@ const FeatureList = [
         type: "svg",
     },
     {
+        Svg: require('@site/static/img/logo-huawei.svg').default,
+        type: "svg",
+    },
+    {
         Svg: require('@site/static/img/logo-futurewei.svg').default,
         type: "svg",
     },
