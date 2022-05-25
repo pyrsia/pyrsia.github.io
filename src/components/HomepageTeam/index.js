@@ -17,14 +17,6 @@ const FeatureList = [
         Svg: require('@site/static/img/logo-deployhub.svg').default,
         type: "svg",
     },
-    {
-        Svg: require('@site/static/img/logo-futurewei.svg').default,
-        type: "svg",
-    },
-    {
-        Svg: require('@site/static/img/logo-oracle.svg').default,
-        type: "svg",
-    },
 ];
 
 function Feature({Svg, type, url}) {
