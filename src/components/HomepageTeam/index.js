@@ -46,7 +46,7 @@ function Feature({Svg, type, url}) {
 
 export default function HomepageTeam() {
     return (
-        <section className={styles.team}>
+        <section className={styles.team} id="team">
             <div className="container">
                 <div className="row">
                     <div className={clsx('col col--12 text--center padding-bottom--lg')}>
