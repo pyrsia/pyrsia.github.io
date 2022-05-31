@@ -8,7 +8,7 @@ const FeatureList = [
     title: 'FRICTIONLESS',
     description: (
       <>
-          Pyrsia aims to seamlessly integrate with the package mangers developers are already using. The day to day impact should be minimal with the default configuration. Advance workflows can easily be enabled.
+          Pyrsia aims to seamlessly integrate with the package managers developers are already using. The day to day impact should be minimal with the default configuration. Advance workflows can easily be enabled.
       </>
     ),
       linktitle: 'Read More >',
