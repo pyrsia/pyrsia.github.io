@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[2535],{45641:function(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Blockchain Consensus","permalink":"/blog/2022/01/28/blockchain-consesns"}]}')}}]);
