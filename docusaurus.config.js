@@ -31,8 +31,8 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/pyrsia/pyrsia/edit/main/blog/',
+          editUrl: 'https://github.com/pyrsia/pyrsia/edit/main/blog/',
+          remarkPlugins: [require('mdx-mermaid')],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,7 +53,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'robots', content: 'all'}],
+      metadata: [{ name: 'robots', content: 'all' }],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true, // remove light dark switch
