@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: 16.x
           cache: npm
+      - run: sudo npm install -g npm@\>=8.6.0 # We need at least this, see #79 for more information
       - run: |
           npm ci
           npm run build
