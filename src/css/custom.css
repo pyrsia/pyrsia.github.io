@@ -93,6 +93,7 @@
   left: calc((100% - 118px) / 2);
   margin-top: 0;
 }
+.blog-list-page .footer,
 .blog-post-page .footer,
 .docs-doc-page .footer {
   /*fix footer on documentation pages - flame icon overlapp */
