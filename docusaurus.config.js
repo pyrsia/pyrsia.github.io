@@ -16,7 +16,15 @@ const config = {
   organizationName: 'pyrsia', // Usually your GitHub org/user name.
   projectName: 'pyrsia.github.io', // Usually your repo name.
   trailingSlash: true,
-
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+      crossorigin: 'anonymous',
+    },
+  ],
   presets: [
     [
       'classic',
@@ -32,7 +40,8 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/pyrsia/pyrsia/edit/main/blog/',
-          remarkPlugins: [require('mdx-mermaid')],
+          remarkPlugins: [require('mdx-mermaid'), require('remark-math')],
+          rehypePlugins: [[require('rehype-katex'), {strict: false}]],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
