@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: 16.x
           cache: npm
+          check-latest: true
       - run: |
           npm ci
           npm run build
