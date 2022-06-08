@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[5977],{85216:function(e){e.exports=JSON.parse('{"label":"peer-metrics","permalink":"/blog/tags/peer-metrics","allTagsPath":"/blog/tags","count":1}')}}]);

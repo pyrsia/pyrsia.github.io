@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[2535],{45641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Peer Metrics in the Pyrsia Network","permalink":"/blog/2022/06/03/peer-metrics"},{"title":"Blockchain Consensus","permalink":"/blog/2022/01/28/blockchain-consensus"}]}')}}]);
