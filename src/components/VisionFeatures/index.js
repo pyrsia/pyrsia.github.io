@@ -9,7 +9,7 @@ const FeatureList = [
         description: (
             <>
                 Attestations proved non-repudiation so developers know exactly who wrote the code,
-                how it was built and how the artifact was published. Build on standard like Sigstore's
+                how it was built and how the artifact was published. Built on standard like Sigstore's
                 Cosign to NPM Packages Signing allows developers to rapidly add their containers to pyrsia
                 network along side their favorite container registries. Other notable efforts include Notary V2.
             </>
@@ -29,7 +29,7 @@ const FeatureList = [
         title: 'ARTIFACT DESCRIPTIONS',
         description: (
             <>
-                Open interoperable standards such as the Linux Foundation's SPDX, OWASP CycloneDX, or Build Infoas
+                Open interoperable standards such as the Linux Foundation's SPDX, OWASP CycloneDX, or Build Info as
                 used to collect facts and communicate facts about packages. Leverage and integrate with the
                 technologies you are already relying on to secure your supply chain.
             </>
@@ -60,7 +60,7 @@ const FeatureList = [
         title: 'REPUTABLE PARTNERS',
         description: (
             <>
-                In order to bootstrap trust, only select few reputable entities with will build and publishing
+                In order to bootstrap trust, only a select few reputable entities will build and publishing
                 images. These image will be available to everyone. Participates of the OpenSSF will all the have
                 chance to volunteer their resources to help establish the first distributed network, but we are
                 most excited for the future!
