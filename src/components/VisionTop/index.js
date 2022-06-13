@@ -21,7 +21,7 @@ export default function VisionTop() {
                             of your services</b>. Without constant identity checks and safety protocols for keys and
                             secrets, <b>open source dependencies can open the door to breaches, exploits and supply chain attacks</b>.</p>
                         <h3 className="fs24 margin-bottom--none">WHERE DOES PYRSIA FIT IN...</h3>
-                        <p className={styles.paragraph}><b>What does Pyrsia address in SLSA's treat landscape?</b><br />
+                        <p className={styles.paragraph}><b>What does Pyrsia address in SLSA's threat landscape?</b><br />
                             Firmly the "dependencies" section. The only way to obtaining confidence is to have detailed
                             transparent information across the supply chain.</p>
                         <h3 className="fs24 margin-bottom--none">WHAT PYRSIA SETS OUT TO PROVIDE</h3>

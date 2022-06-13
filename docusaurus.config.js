@@ -97,7 +97,7 @@ async function createConfig() {
             },
             {
               to: '/blog',
-              label: 'Blogs',
+              label: 'Blog',
               position: 'left'
             },
             {
@@ -128,7 +128,7 @@ async function createConfig() {
                   to: '/docs/tutorials',
                 },
                 {
-                  label: 'Blogs',
+                  label: 'Blog',
                   to: '/blog',
                 },
                 {
