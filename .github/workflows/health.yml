@@ -12,8 +12,7 @@ jobs:
       - id: date
         run: |
           echo "::set-output name=today::$(date "+%Y/%m/%d")"
-      - continue-on-error: true
-        uses: jtalk/url-health-check-action@v2
+      - uses: jtalk/url-health-check-action@v2
         with:
           url: https://pyrsia.io
       - if: failure()
