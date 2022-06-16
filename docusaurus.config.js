@@ -43,7 +43,7 @@ async function createConfig() {
           blog: {
             showReadingTime: true,
             // Please change this to your repo.
-            editUrl: 'https://github.com/pyrsia/pyrsia/edit/main/blog/',
+            editUrl: 'https://github.com/pyrsia/pyrsia/edit/main/',
             remarkPlugins: [require('mdx-mermaid'), math],
             rehypePlugins: [[katex, {strict: false}]],   
           },
