@@ -44,6 +44,10 @@ export default function Home() {
       description="The Pyrsia project allows developers leverage any package with confidence and transparency.">
         <Head>
             <meta name="google-site-verification" content="9IhW0v7-04TrLe9HOtIjF9C4nn_I7zZ5qiuvGcV4DhQ" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+            <link rel="manifest" href="/img/site.webmanifest" />
         </Head>
       <HomepageHeader />
       <main>
