@@ -9,9 +9,9 @@ export default function VisionTop() {
             <div className="container">
                 <div className="row">
                     <div className={clsx('col col--12')}>
-                        <h2 className={clsx('fs40 fw500 padding-bottom--xl margin-bottom--none', styles.headline)}>
+                        <h1 className={clsx('fs40 fw500 padding-bottom--xl margin-bottom--none', styles.headline)}>
                             <span className="colorWhite">Pyrsia sets out to be the torch that lights up the open-source supply chain.</span>
-                        </h2>
+                        </h1>
                     </div>
                 </div>
                 <div className="row padding-bottom--xl">
