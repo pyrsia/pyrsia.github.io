@@ -25,7 +25,7 @@ const FeatureList = [
         imgOnly: false,
     },
     {
-        title: '',
+        title: 'Torch',
         imgSrc: '/img/icon-pyrsia-torch-175.svg',
         description: (
             <>
@@ -63,7 +63,7 @@ function Feature({imgSrc, title, description, imgOnly}) {
             <div className={clsx('padding-horiz--md')}>
                 <div className={clsx('text--center', styles.col5th)}>
                     <div className={styles.iconDiv}>
-                        <img src={useBaseUrl(imgSrc)} />
+                        <img src={useBaseUrl(imgSrc)} alt={title} />
                     </div>
                     <div>
                         <h3>{title}</h3>
@@ -77,7 +77,7 @@ function Feature({imgSrc, title, description, imgOnly}) {
         return (
             <div className={clsx('padding-horiz--md')}>
                 <div className={clsx('text--center', styles.colImg)}>
-                    <img src={useBaseUrl(imgSrc)} />
+                    <img src={useBaseUrl(imgSrc)} alt={title} />
                 </div>
             </div>
         );

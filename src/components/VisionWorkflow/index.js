@@ -21,12 +21,12 @@ export default function VisionWorkflow() {
                         <p>Get started withe a one step installer. Followed up by generating signing keys.</p>
                     </div>
                     <div className={clsx(styles.imageInstallDiv)}>
-                        <img src={useBaseUrl("/img/vision/vision-pyrsia-installation.png")} />
+                        <img src={useBaseUrl("/img/vision/vision-pyrsia-installation.png")} alt="Pyrsia installation command screenshot" />
                     </div>
                 </div>
                 <div className={clsx("row padding-bottom--xl", styles.row1)}>
                     <div className={clsx(styles.imageInstallDiv)}>
-                        <img src={useBaseUrl("/img/vision/vision-pyrsia-dependencies.png")} />
+                        <img src={useBaseUrl("/img/vision/vision-pyrsia-dependencies.png")} alt="Download container image with docker screenshot" />
                     </div>
                     <div className={clsx('text--center', styles.paragraph2)}>
                         <div>
