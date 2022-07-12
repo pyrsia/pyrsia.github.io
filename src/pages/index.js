@@ -18,7 +18,7 @@ function HomepageHeader() {
 
       <div className="container">
         <div className="hero__logo">
-            <img src={useBaseUrl('/img/hero/hero-pyrsia-logo.svg')} />
+            <img src={useBaseUrl('/img/hero/hero-pyrsia-logo.svg')} alt="Pyrsia logo" />
         </div>
         <h1 className="hero__subtitle padding-top--md pos-relative colorWhite fw500 fs40"><b><i>DECENTRALIZED PACKAGE</i></b><br/>NETWORK</h1>
         <div className={clsx('padding-top--md', styles.buttons)}>
@@ -29,7 +29,7 @@ function HomepageHeader() {
           </Link>
         </div>
           <div className="pos-absolute hero__worldmap">
-              <img src={useBaseUrl('/img/hero/hero-pyrsia-world.svg')} />
+              <img src={useBaseUrl('/img/hero/hero-pyrsia-world.svg')} alt="world map" />
           </div>
       </div>
     </header>

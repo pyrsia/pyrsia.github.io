@@ -8,40 +8,46 @@ const FeatureList = [
     {
         Svg: require('@site/static/img/logo-jfrog.svg').default,
         type: "svg",
+        desc: "JFrog Logo",
     },
     {
         Svg: require('@site/static/img/logo-docker.svg').default,
         type: "svg",
+        desc: "Docker Logo",
     },
     {
         Svg: require('@site/static/img/logo-deployhub.svg').default,
         type: "svg",
+        desc: "Deployhub Logo",
     },
     {
         Svg: require('@site/static/img/logo-huawei.svg').default,
         type: "svg",
+        desc: "Huawei Logo",
     },
     {
         Svg: require('@site/static/img/logo-futurewei.svg').default,
         type: "svg",
+        desc: "Futurewei Logo",
     },
     {
         Svg: require('@site/static/img/logo-oracle.svg').default,
         type: "svg",
+        desc: "Oracle Logo",
     },
 ];
 
-function Feature({Svg, type, url}) {
+function Feature({Svg, type, url, desc}) {
     if ( type == "svg") {
         return (
                 <div className={styles.iconDiv}>
-                    <Svg role="img"/>
+                    <Svg role="img" alt={desc}/>
                 </div>
         );
     } else {
         return (
             <div className={styles.iconDiv}>
-                <img className={styles.logoPng} src={useBaseUrl(url)}/>
+                <img className={styles.logoPng} src={useBaseUrl(url)} alt={desc}/>
             </div>
 
         );
