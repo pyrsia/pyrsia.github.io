@@ -32,7 +32,7 @@ export default function VisionTop() {
                                 it's metadata as it changes over time)</li>
                             <li>Secure and Efficient Distribution (e.g. verifiable integrity of the package
                                 and it's source)</li>
-                            <li>Fault tolerance - Distrusted network storages means</li>
+                            <li>Fault tolerance - Decentralized nodes over P2P network provide fault tolerance</li>
                         </ul>
                         <h3 className="fs24 margin-bottom--none">GUIDING PRINCIPLES</h3>
                         <ul>
