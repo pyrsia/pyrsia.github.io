@@ -45,7 +45,7 @@ async function createConfig() {
             // Please change this to your repo.
             editUrl: 'https://github.com/pyrsia/pyrsia/edit/main/',
             remarkPlugins: [require('mdx-mermaid'), math],
-            rehypePlugins: [[katex, {strict: false}]],   
+            rehypePlugins: [[katex, {strict: false}]],
           },
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
@@ -146,7 +146,7 @@ async function createConfig() {
                 },
                 {
                   label: 'OpenSSF Slack',
-                  href: 'https://openssf.slack.com/archives/C0302CVKPA5',
+                  href: 'https://join.slack.com/t/openssf/shared_invite/zt-1cx4yg0jn-JApp_AO~JV7fO0k6LrcuGA',
                 },
                 {
                   label: 'Youtube',
