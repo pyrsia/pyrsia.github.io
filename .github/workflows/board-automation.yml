@@ -33,7 +33,7 @@ jobs:
       github.event_name == 'pull_request_target' &&
       (github.event.action == 'opened' || github.event.action == 'reopened')
     steps:
-      - uses: toshimaru/auto-author-assign@v1.5.0
+      - uses: toshimaru/auto-author-assign@v1.5.1
       - uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: website
