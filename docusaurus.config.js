@@ -91,7 +91,7 @@ async function createConfig() {
             },
             {
               type: 'doc',
-              docId: 'get_involved/readme',
+              docId: 'community/get_involved/readme',
               label: 'Get Involved',
               position: 'left'
             },
