@@ -6,6 +6,13 @@ on:
   pull_request_target:
     types: [opened, reopened]
 
+env:
+  todo: Todo
+  done: Done
+  in_progress: In Progress
+  mvp: MVP
+  blocked: Blocked
+
 jobs:
   triage-new-issues:
     runs-on: ubuntu-latest
@@ -19,12 +26,15 @@ jobs:
           labels: |
             triage
             website
-      - uses: alex-page/github-project-automation-plus@v0.8.1
+      - name: Move issue to ${{ env.todo }}
+        uses: leonsteinhaeuser/project-beta-automations@v1.3.0
         with:
-          project: Pyrsia Development
           action: add
-          column: To do
-          repo-token: ${{ secrets.ORG_ACCESS_TOKEN }}
+          status_value: ${{ env.todo }}
+          project_id: 3
+          organization: pyrsia
+          gh_token: ${{ secrets.ORG_ACCESS_TOKEN }}
+          resource_node_id: ${{ github.event.issue.node_id }}
 
   in-progress-new-prs:
     runs-on: ubuntu-latest
@@ -37,8 +47,10 @@ jobs:
       - uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: website
-      - uses: alex-page/github-project-automation-plus@v0.8.1
+      - uses: leonsteinhaeuser/project-beta-automations@v1.3.0
         with:
-          project: Pyrsia Development
-          column: In Progress
-          repo-token: ${{ secrets.ORG_ACCESS_TOKEN }}
+          status_value: ${{ env.done }}
+          project_id: 3
+          organization: pyrsia
+          gh_token: ${{ secrets.ORG_ACCESS_TOKEN }}
+          resource_node_id: ${{ github.event.issue.node_id }}
