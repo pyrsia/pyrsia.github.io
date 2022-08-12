@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "download-main-repo": "wget -c https://github.com/pyrsia/pyrsia/archive/refs/heads/main.tar.gz -O - | tar -xz -C /tmp && node .github/actions/custom-edit-url.js /tmp/pyrsia-main pyrsia/pyrsia && cp -r /tmp/pyrsia-main/docs ./ && cp -r /tmp/pyrsia-main/blog ./ && find . -name 0000-template.md -exec rm {} \\;",
-    "download-community-repo": "wget -c https://github.com/pyrsia/.github/archive/refs/heads/main.tar.gz -O - | tar -xz -C /tmp && node .github/actions/custom-edit-url.js /tmp/.github-main pyrsia/.github && cp /tmp/.github-main/*.md ./docs/get_involved",
+    "download-community-repo": "wget -c https://github.com/pyrsia/.github/archive/refs/heads/main.tar.gz -O - | tar -xz -C /tmp && node .github/actions/custom-edit-url.js /tmp/.github-main pyrsia/.github",
     "download-repos": "npm run download-main-repo && npm run download-community-repo",
     "docusaurus": "docusaurus",
     "prestart": "npm run download-repos",
