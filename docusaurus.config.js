@@ -146,7 +146,7 @@ async function createConfig() {
                 },
                 {
                   label: 'OpenSSF Slack',
-                  href: 'https://join.slack.com/t/openssf/shared_invite/zt-1cx4yg0jn-JApp_AO~JV7fO0k6LrcuGA',
+                  href: 'https://join.slack.com/t/cdeliveryfdn/shared_invite/zt-1eryue9cw-9YpgrfIfsTcDS~hGHchURg',
                 },
                 {
                   label: 'Youtube',
