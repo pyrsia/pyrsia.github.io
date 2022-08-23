@@ -145,7 +145,7 @@ async function createConfig() {
                   href: 'https://groups.google.com/g/pyrsia',
                 },
                 {
-                  label: 'OpenSSF Slack',
+                  label: 'CDF Slack',
                   href: 'https://join.slack.com/t/cdeliveryfdn/shared_invite/zt-1eryue9cw-9YpgrfIfsTcDS~hGHchURg',
                 },
                 {
