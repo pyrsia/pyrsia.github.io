@@ -11,7 +11,6 @@ import VisionFeatures from '@site/src/components/VisionFeatures';
 import VisionConcepts from '@site/src/components/VisionConcepts';
 import VisionWorkflow from '@site/src/components/VisionWorkflow';
 
-const infoBox1Title = "Examples the assertion the Pyrsia Network does not demonstrate:";
 const infoBox2Title = "COMPOSABLE ELEMENTS";
 
 export default function Home() {
@@ -22,7 +21,6 @@ export default function Home() {
             description="Description will go into a meta tag">
             <main>
                 <VisionTop/>
-                <VisionInfoBox title={infoBox1Title} content="box1"/>
                 <VisionFeatures/>
                 <VisionConcepts />
                 <VisionInfoBox title={infoBox2Title} content="box2"/>
