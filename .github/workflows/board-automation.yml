@@ -27,7 +27,7 @@ jobs:
             triage
             website
       - name: Move issue to ${{ env.todo }}
-        uses: leonsteinhaeuser/project-beta-automations@v1.3.0
+        uses: leonsteinhaeuser/project-beta-automations@v2.0.1
         with:
           action: add
           status_value: ${{ env.todo }}
@@ -47,7 +47,7 @@ jobs:
       - uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: website
-      - uses: leonsteinhaeuser/project-beta-automations@v1.3.0
+      - uses: leonsteinhaeuser/project-beta-automations@v2.0.1
         with:
           status_value: ${{ env.done }}
           project_id: 3
