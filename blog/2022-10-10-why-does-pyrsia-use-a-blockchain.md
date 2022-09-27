@@ -84,7 +84,7 @@ Another feature Pyrsia is building is a search engine that can provide provenanc
 
 Pyrsia’s design contains a network structure that provides direct connectivity between peers thus allowing for immense scale. Having said that, given the emphasis on security we have a differentiation between nodes that run in the cloud and the ones that are run on individual/volunteer nodes. The nodes that run on the cloud have the ability to act as a large cache, have better network throughput thus providing a bigger conduit to reach the repositories. The volunteer nodes provide a P2P network, a sort of proxy cache to content and an effective distribution mechanism. The authority nodes are the only ones that can commit to the ledger and thus provide a trustworthy provenance log.
 
-![Pyrsia Network Design](../images/provenance_log_architecture.png "Pyrsia Network")
+![Pyrsia Network Design](/img/blog/provenance_log_architecture.png "Pyrsia Network")
 
 Along with this the nodes on the cloud are deployed and maintained by Pyrsia governing organizations (Governing organizations are listed on <https://pyrsia.io/>). Having these owned by organizations instead of individuals enhances the availability of these nodes as well as vastly improves the security posture. We are now able to verify these nodes, provide identity mechanisms to have a provable chain of authority and provide membership privileges to keep the network secure - while scaling it across regions.
 
