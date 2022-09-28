@@ -1,4 +1,9 @@
-# Why Pyrsia is being built in Rust?
+---
+title: Why Pyrsia is being built in Rust?
+authors: sudhindra
+tags: [blockchain, consensus, cryptocurrency,  proof-of-work, proof-of-stake, security, transparency, provenance ]
+---
+
 
 When we started working on Pyrsia we had the difficult and exciting task of choosing a language that would work for building secure supply chain software. We will share some details of how we decided to build Pyrsia in Rust and how it fits the problem we are set to solve.
 
@@ -52,7 +57,7 @@ What makes Rust different from other languages is its type system, which represe
 > Rust began as a side project of Graydon Hoare, an employee at Mozilla. In short order, Mozilla saw the potential of the new language and began sponsoring it, before revealing it to the world in 2010.
 One possible source of the name, according to Hoare, is the rust fungus. This has caused Rust programmers to adopt “Rustaceans” as their moniker of choice.
 >
-> Despite its relative youth, Rust has steadily risen in the ranks of popular programming languages. In fact, while it ranked 33 in July 2019, by July 2020 it had risen to the 18th spot on the [TIOBE Programming Community Index](<https://www.tiobe.com/tiobe-index/>). Similarly, according to [Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved), Rust has been the “most loved” language since 2016.
+> Despite its relative youth, Rust has steadily risen in the ranks of popular programming languages. In fact, while it ranked 33 in July 2019, by July 2020 it had risen to the 18th spot on the [TIOBE Programming Community Index](<https://www.tiobe.com/tiobe-index/>). Similarly, according to [Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved), Rust has been the `most loved` language since 2016.
 
 ### Rust language ecosystem
 
