@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[6077],{79444:function(a){a.exports=JSON.parse('{"label":"transparency","permalink":"/blog/tags/transparency","allTagsPath":"/blog/tags","count":1}')}}]);

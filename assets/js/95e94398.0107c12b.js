@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[9549],{14437:function(a){a.exports=JSON.parse('{"permalink":"/blog/tags/blockchain/page/2","page":2,"postsPerPage":1,"totalPages":2,"totalCount":2,"previousPage":"/blog/tags/blockchain","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
