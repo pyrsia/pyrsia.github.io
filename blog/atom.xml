@@ -8,7 +8,7 @@
     <subtitle>Pyrsia.io Blog</subtitle>
     <icon>https://pyrsia.io/img/favicon-32x32.png</icon>
     <entry>
-        <title type="html"><![CDATA[Why does Pyrsia use a Blockchain (but not Cryptocurrency)?]]></title>
+        <title type="html"><![CDATA[Why does Pyrsia use a Blockchain(and no CryptoCurrency)?]]></title>
         <id>/2022/10/10/why-does-pyrsia-use-a-blockchain</id>
         <link href="https://pyrsia.io/blog/2022/10/10/why-does-pyrsia-use-a-blockchain"/>
         <updated>2022-10-10T00:00:00.000Z</updated>
@@ -20,6 +20,18 @@ We need a distributed network since centralized repositories lack the reliabilit
 Availability of multiple language support - especially good documentation for a Rust implementation
 Ability to turn of or not have the concept of Currency to make transactions on the network
 Ability to choose the consensus algorithms that fit Pyrsia’s need and situation - Proof of Authority</p><p>We found that AlephBFT supported all these criteria and was easy to get started. We have been able to also build on top of AlephBFT to constrain the use cases of Pyrsia without giving away security. AlephBFT has also allowed us to configure the network nodes in a way that allows us the control we need to support the security.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="blockchain-does-not-mean-crypto">Blockchain does not mean Crypto<a class="hash-link" href="#blockchain-does-not-mean-crypto" title="Direct link to heading">​</a></h2><p>One thing we have learnt over the course of this effort is that - whenever we talk about blockchain as the technology we use in Pyrsia, we have received critical feedback about how we are overcomplicating our design. When we reflected on this feedback we realized that the majority of it is due to the prevalent use of blockchain within the cryptocurrency world.</p><p>Blockchain became popular by being widely adopted in the cryptocurrency implementations as the default mechanism to facilitate and verify transactions. The connection is so strong that when the term blockchain is used - it automatically gets associated with cryptocurrency and mining. And we have found that it is really hard to break this association. We also found that the most popular implementations connect the mining and crypto aspects to the blockchain in such a way that they become inseparable.</p><p>Blockchain will act as the immutable ledger giving us the tamper proof database we need, with the ability to search it efficiently and distribute it across the peers as we need.</p><p>Pyrsia is open source and free. The key to ensuring that the open source community continues to engage and use Pyrsia is that there should not be any currency attached with actions on Pyrsia. From the get go this has been our main objective to keep this network free and open to use for the community and we have worked to implement an immutable ledger which does not have the concept of cryptocurrency in it. Our implementation has removed the requirement of requiring gas (a fuel to power your transactions on the blockchain) or currency for participation. Given the security concerns Pyrsia operates on a small number of Pyrsia nodes that participate in consensus. Running the Proof of Authority algorithm from certified nodes and limiting those number of nodes to the participants of the governing board, allows Pyrsia to maintain security without being open to any mining on the network. Pyrsia will also benefit from the lightweight implementation of AlephBFT so that we can scale across regions and keep the network always up to date.</p><p>Pyrsia aims to leverage blockchain to power the provenance data while not allowing any usage of cryptocurrency on the network. We believe that open source should be free to use and should not have incentives attached to it to allow for fairness. Pyrsia builds on the success of blockchain while saving resources (energy) by not allowing any competitive currency exchange on the network.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="in-summary">In Summary<a class="hash-link" href="#in-summary" title="Direct link to heading">​</a></h2><p>Pyrsia leverages blockchain as an immutable ledger to provide a scalable provenance log. Blockchain technology is best suited for distributed large amounts of chained data across wide networks which is evidenced from the success of blockchain in the cryptocurrencies. Pyrsia is using this same technology to improve the state of the software supply chain by providing transparency into how open source software is being built on this network. This transparency is aimed to give you the confidence to use the open source library in your production environments.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a class="hash-link" href="#references" title="Direct link to heading">​</a></h3><ul><li><a href="https://decrypt.co/resources/byzantine-fault-tolerance-what-is-it-explained" target="_blank" rel="noopener noreferrer">Byzantine Fault Tolerance</a></li><li><a href="https://www.synopsys.com/blogs/software-security/equifax-apache-struts-vulnerability-cve-2017-5638/" target="_blank" rel="noopener noreferrer">Equifax data breach</a></li><li><a href="https://www.businessinsider.in/tech/news/heres-a-simple-explanation-of-how-the-massive-solarwinds-hack-happened-and-why-its-such-a-big-deal/articleshow/79945993.cms" target="_blank" rel="noopener noreferrer">Solarwinds breach</a></li><li><a href="https://jfrog.com/blog/log4shell-0-day-vulnerability-all-you-need-to-know/" target="_blank" rel="noopener noreferrer">Log4Shell vulnerability</a></li><li><a href="https://jfrog.com/blog/springshell-zero-day-vulnerability-all-you-need-to-know/" target="_blank" rel="noopener noreferrer">Spring4Shell vulnerability</a></li><li><a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/" target="_blank" rel="noopener noreferrer">Executive order on improving nations cybersecurity</a></li><li><a href="https://pyrsia.io" target="_blank" rel="noopener noreferrer">Pyrsia Proposal</a></li><li><a href="https://www.synopsys.com/software-integrity/resources/analyst-reports/open-source-security-risk-analysis.html?intcmp=sig-blog-rsa22" target="_blank" rel="noopener noreferrer">75% software comes from open source components</a></li><li><a href="https://jfrog.com/whitepaper/a-vision-of-liquid-software/" target="_blank" rel="noopener noreferrer">Software is Liquid</a></li></ul>]]></content>
+        <author>
+            <name>Sudhindra Rao</name>
+            <uri>https://github.com/betarelease</uri>
+        </author>
+        <category label="blockchain" term="blockchain"/>
+        <category label="consensus" term="consensus"/>
+        <category label="cryptocurrency" term="cryptocurrency"/>
+        <category label="proof-of-work" term="proof-of-work"/>
+        <category label="proof-of-stake" term="proof-of-stake"/>
+        <category label="security" term="security"/>
+        <category label="transparency" term="transparency"/>
+        <category label="provenance" term="provenance"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Why Pyrsia is being built in Rust?]]></title>
@@ -34,14 +46,14 @@ A lot of these appealing features of the Rust ecosystem are well summarized in <
             <name>Sudhindra Rao</name>
             <uri>https://github.com/betarelease</uri>
         </author>
-        <category label="blockchain" term="blockchain"/>
-        <category label="consensus" term="consensus"/>
-        <category label="cryptocurrency" term="cryptocurrency"/>
-        <category label="proof-of-work" term="proof-of-work"/>
-        <category label="proof-of-stake" term="proof-of-stake"/>
+        <category label="rustlang" term="rustlang"/>
+        <category label="rust" term="rust"/>
         <category label="security" term="security"/>
-        <category label="transparency" term="transparency"/>
-        <category label="provenance" term="provenance"/>
+        <category label="web3" term="web3"/>
+        <category label="modern" term="modern"/>
+        <category label="safety" term="safety"/>
+        <category label="community" term="community"/>
+        <category label="ecosystem" term="ecosystem"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Peer Metrics in the Pyrsia Network]]></title>

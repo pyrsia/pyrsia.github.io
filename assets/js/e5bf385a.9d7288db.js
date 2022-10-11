@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[663],{68197:function(a){a.exports=JSON.parse('{"label":"modern","permalink":"/blog/tags/modern","allTagsPath":"/blog/tags","count":1}')}}]);
