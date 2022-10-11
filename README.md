@@ -32,7 +32,7 @@ to be published. You will see that the download happens using a script in `packa
 By default the script will download the latest and greatest from the Pyrsia repo. If you are working locally and want your local changes to be tested on docusaurus, you can do so by editing the following line in `package.json`
 
 ```
- "download-main-repo": "cp -r <path to your pysia repo>/docs ./ && cp -r <path to your pysia repo>/blog ./"
+ "download-main-repo": "cp -r <path to your pysia repo>/docs ./"
 ```
 
 Once you make this change and run `npm start` you will see that the docs that are shown are from your local repo. Confirm by making a small change in the docs folder and verifying that it shows up on the localhost website before you proceed.
