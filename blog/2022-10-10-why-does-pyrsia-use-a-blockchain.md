@@ -1,3 +1,9 @@
+---
+title: Why does Pyrsia use a Blockchain(and no CryptoCurrency)?
+authors: sudhindra
+tags: [blockchain, consensus, cryptocurrency,  proof-of-work, proof-of-stake, security, transparency, provenance ]
+---
+
 # Why does Pyrsia use a Blockchain (but not Cryptocurrency)?
 
 Blockchain became popular by being widely adopted in the cryptocurrency implementations as the default mechanism to facilitate and verify transactions. The connection is so strong that when the term blockchain is used - it is automatically associated with cryptocurrency and mining. But if you look closely, blockchain is simply an immutable ledger - immutable being the killer feature - which can be used in any situation where you need data to be tamper proof.

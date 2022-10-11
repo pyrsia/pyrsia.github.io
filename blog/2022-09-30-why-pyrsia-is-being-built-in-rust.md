@@ -1,7 +1,7 @@
 ---
 title: Why Pyrsia is being built in Rust?
 authors: sudhindra
-tags: [blockchain, consensus, cryptocurrency,  proof-of-work, proof-of-stake, security, transparency, provenance ]
+tags: [rustlang, rust, security, web3, modern, safety, community, ecosystem]
 ---
 
 When we started working on Pyrsia we had the difficult and exciting task of choosing a language that would work for building secure supply chain software. We will share some details of how we decided to build Pyrsia in Rust and how it fits the problem we are set to solve.
@@ -58,7 +58,6 @@ One possible source of the name, according to Hoare, is the rust fungus. This ha
 >
 > Despite its relative youth, Rust has steadily risen in the ranks of popular programming languages. In fact, while it ranked 33 in July 2019, by July 2020 it had risen to the 18th spot on the [TIOBE Programming Community Index](<https://www.tiobe.com/tiobe-index/>). Similarly, according to [Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved), Rust has been the `most loved` language since 2016.
 
-
 ### Rust language ecosystem
 
 The above philosophy made Rust a great candidate for use in security solutions like Pyrsia. Some other aspects that sealed the deal as a programming language for us were:
@@ -77,7 +76,6 @@ When we set out to change how open source software is secured we had a choice to
 
 In the end it was clear to us that Rust was the right choice to make and we have started building Pyrsia in Rust. We realize that we have a steep learning curve and we are learning as a group. Come join us on our [Slack channel](https://join.slack.com/t/cdeliveryfdn/shared_invite/zt-1eryue9cw-9YpgrfIfsTcDS~hGHchURg) to discuss more.
 
-
 ### References
 
 * [Rust Philosophy](https://blog.rust-lang.org/2015/05/15/Rust-1.0.html)
@@ -85,4 +83,3 @@ In the end it was clear to us that Rust was the right choice to make and we have
 * [Rust vs C](https://codilime.com/blog/rust-vs-c-safety-and-performance-in-low-level-network-programming/)
 * [Garbage collection issues](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
 * [Why projects use Rust?](https://codilime.com/blog/why-is-rust-programming-language-so-popular/#:~:text=High%20performance%20and%20safety%20are,amounts%20of%20data%20very%20quickly)
-
