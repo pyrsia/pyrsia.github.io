@@ -164,6 +164,10 @@ async function createConfig() {
                   label: 'The Team',
                   to: '/#team',
                 },
+                {
+                  label: 'Technical Charter',
+                  to: 'https://drive.google.com/file/d/13nOwuFGMDwC-S6mUkhSopC0sFMTo__uE/view?usp=sharing',
+                },
               ]
             },
             {
@@ -180,7 +184,9 @@ async function createConfig() {
               ],
             },
           ],
-          copyright: ` © ${new Date().getFullYear()} JFrog Ltd All Rights Reserved`,
+          copyright: `<br/><br/>
+                      Copyright © Pyrsia a Series of LF Projects, LLC. <br/>
+                      For website terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">https://lfprojects.org</a>.`,
         },
         prism: {
           theme: lightCodeTheme,
