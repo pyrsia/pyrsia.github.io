@@ -25,7 +25,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--pyrsia-cta button--lg pos-relative"
             to="/docs/tutorials/quick-installation/">
-              Try the Pyrsia Demo >
+              Try Pyrsia >
           </Link>
         </div>
           <div className="pos-absolute hero__worldmap">
