@@ -185,6 +185,9 @@ async function createConfig() {
             },
           ],
           copyright: `<br/><br/>
+                        <a href="https://cd.foundation" target="_blank"><img src="/img/logo-cdf.png" /></a><br />
+                        Pyrsia is a Continuous Delivery Foundation project.
+                        <br/><br/>
                       Copyright © Pyrsia a Series of LF Projects, LLC. <br/>
                       For website terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">https://lfprojects.org</a>.`,
         },
