@@ -57,9 +57,9 @@ const branch = argv[4] || 'main'
 
 const result = getAllFiles(dir).filter((value) => value.endsWith('.md') || value.endsWith('.mdx'))
 for (const file of result) {
-    console.log(file)
-    const value = file.replace(dir + '/', '')
+    const value = file.substring((dir + '/').length)
+    console.log(value)
     addFrontMatter(file,
-        `custom_edit_url: https://github.com/${repo}/edit/${branch}/${value}`
+        `custom_edit_url: https://github.com/${repo}/blob/${branch}/${value}`
     )
 }
