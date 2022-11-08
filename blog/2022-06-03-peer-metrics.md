@@ -1,5 +1,4 @@
 ---
-custom_edit_url: https://github.com/pyrsia/pyrsia/edit/main/blog/2022-06-03-peer-metrics.md
 title:  Peer Metrics in the Pyrsia Network
 authors:
 - name: Mark Seaborn

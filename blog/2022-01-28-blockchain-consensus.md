@@ -1,5 +1,4 @@
 ---
-custom_edit_url: https://github.com/pyrsia/pyrsia/edit/main/blog/2022-01-28-blockchain-consensus.md
 title: Blockchain Consensus
 authors:
 - name: Christopher McArthur
