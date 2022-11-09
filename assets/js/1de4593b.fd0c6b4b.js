@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[8815],{50810:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/proof-of-stake","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

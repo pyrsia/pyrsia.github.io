@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[4067],{90938:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/p-2-p","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
