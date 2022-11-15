@@ -74,7 +74,7 @@ A lot of these appealing features of the Rust ecosystem are well summarized in [
 
 When we set out to change how open source software is secured we had a choice to make - the language to build the security solution with. When we surveyed what was available there were multiple options. C due to its performance, Golang because of its mature installations in the wild, Rust as an up and coming community with performance and modern language features.
 
-In the end it was clear to us that Rust was the right choice to make and we have started building Pyrsia in Rust. We realize that we have a steep learning curve and we are learning as a group. Come join us on our [Slack channel](https://join.slack.com/t/cdeliveryfdn/shared_invite/zt-1eryue9cw-9YpgrfIfsTcDS~hGHchURg) to discuss more.
+In the end it was clear to us that Rust was the right choice to make and we have started building Pyrsia in Rust. We realize that we have a steep learning curve and we are learning as a group. Come join us on our [Slack channel](https://cdeliveryfdn.slack.com/join/shared_invite/zt-1eryue9cw-9YpgrfIfsTcDS~hGHchURg) to discuss more.
 
 ### References
 
