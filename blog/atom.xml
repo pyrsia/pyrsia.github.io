@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pyrsia.io/blog</id>
     <title>Pyrsia.io Blog</title>
-    <updated>2022-10-10T00:00:00.000Z</updated>
+    <updated>2022-11-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pyrsia.io/blog"/>
     <subtitle>Pyrsia.io Blog</subtitle>
     <icon>https://pyrsia.io/img/favicon-32x32.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Release 0.2.1]]></title>
+        <id>/2022/11/30/pyrsia-0.2.1-released</id>
+        <link href="https://pyrsia.io/blog/2022/11/30/pyrsia-0.2.1-released"/>
+        <updated>2022-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Announcing a new release]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="announcing-a-new-release">Announcing a new release<a class="hash-link" href="#announcing-a-new-release" title="Direct link to heading">​</a></h2><p>We are happy to announce the release of <a href="https://github.com/pyrsia/pyrsia/releases/tag/v0.2.1" target="_blank" rel="noopener noreferrer">version 0.2.1</a> today!</p><p>This release has incremental improvements over the <a href="https://github.com/pyrsia/pyrsia/releases/tag/v0.2.0" target="_blank" rel="noopener noreferrer">version 0.2.0</a> we had released at the CDSummit at Kubecon in Detroit.</p><p>Other than usual software quality improvements we have been able to include the following:</p><ul><li>Better CLI experience - easy to configure</li><li>MacOSX installer is able to start the service automatically - better experience for getting started.</li><li>Now you are able to automatically request builds on Pyrsia if an artifact does not exist on the network.</li><li>Improved and updated documentation</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="integration-tests-and-staging-environment">Integration tests and Staging environment<a class="hash-link" href="#integration-tests-and-staging-environment" title="Direct link to heading">​</a></h2><p>We invested a lot of time in this release to improve our testing etiquette this release.
+We now have a set of <a href="https://github.com/pyrsia/pyrsia-integration-tests" target="_blank" rel="noopener noreferrer">integration tests</a> that we rely on to ensure that the network is stable and the apis we offer continue to remain stable.
+We did not have a dedicated infrastructure to test before going to production. So as invested in a staging that allows us to test in a controlled environment before we release to production. This environment also allows us to experiment with our infrastructure as well before we make those changes into production.</p><p>More testing is better!</p><p>Please download our installers, try out Pyrsia with docker and let us know if you are looking for something we do not yet support.</p>]]></content>
+        <author>
+            <name>Sudhindra Rao</name>
+            <uri>https://github.com/betarelease</uri>
+        </author>
+        <category label="pyrsia" term="pyrsia"/>
+        <category label="cli" term="cli"/>
+        <category label="installer" term="installer"/>
+        <category label="service" term="service"/>
+        <category label="configuration" term="configuration"/>
+        <category label="release" term="release"/>
+        <category label="0.2.1" term="0.2.1"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why does Pyrsia use a Blockchain(and no CryptoCurrency)?]]></title>
         <id>/2022/10/10/why-does-pyrsia-use-a-blockchain</id>
