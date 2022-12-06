@@ -114,7 +114,6 @@ $
 
 Now what ever send from the client should be echoed at rust_app program terminal.
 
-
 ### Upload Archive in Cloud Storage
 
 Now we will concentrate how to build installer for macOS. For this we will use Homebrew package manager. Homebrew requires a URL to download your binary. There are many choices to host your executable like any cloud provider
@@ -261,4 +260,4 @@ Now it is ready to release the installer. To use the installer in macOS, here ar
 - Test the installed binary. E.g. `brew test listener`
 - Install the binary as service. E.g. `brew services start listener`. Once service has started as background process, 
 the status of the service can be verified using `brew services list`.
-- Service can be 
+- Background service can be stopped at any time using brew's services utility. E.g. `brew services stop listener`
