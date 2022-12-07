@@ -9,32 +9,35 @@ tags: [rust, macos, installer, homebrew, brew]
 
 # Create macOS Installer for Rust Binary App
 
-Recently Rust programming language getting more traction from many developers working on System Programming and building
-decentralized application. In case of your binaries you would like to create an installer for the users which eliminates 
-a lot of hassles for users and a greater control for app developer how it will run on users machines.
+Recently the Rust programming language has enjoyed the success and thrilled the many developers specially working on 
+System Level Software and building decentralized applications. When releasing your software, it is usually desirable to 
+provide an easy to use installer for end users, ideally reducing the configuration burden on users and providing
+individual developers with control of how the application should function at the end users environment.
 
-There are advantages of having installers for your binaries and few are here mentioned
+There are advantages of having installers for your binaries and a few are mentioned here. 
 
-- User doesn't need to manage anything like configuration, setting environment variables, finding sutable directories for binary to run etc.
-- User can be alerted in the event of a new release of the software.
-- App developer can have more control on managing context of the app, providing backward compatabilities, cleaning up storage used by the app.
+- User doesn't need to provide any configuration, environment variables or base directories for the binary to run on users
+machine. Rather software manufacturer packages those defaults with the installer.
+- User can be alerted in the event of a new version release of the software.
+- Developer can have more control on managing context of the app, providing backward compatibility, cleaning up storage 
+used by the app.
 
-Here we will build a small rust project and will use Homebrew to create an installer for macOS.
 
-## Build a small binary app in Rust & Create Installer for it
 
-Let's build a sample Rust binary program.
+## Build a small binary app in Rust & Create an Installer
 
-### Sample code for the rust binary app
+In this sections we will build a small rust binary and an installer for macOS using [Homebrew](https://brew.sh/).
 
-In this example our goal is not create a rust application but using a very basic rust binary application to demonstrate
-how to build installer. For this purpose here is a sample rust program which listens to a TCP Socket and echo the text
-send to socket to standard output (i.e. stdout). The program also has an option to set the port from an environment
-variable. Our goal is to run the software as a background process and log the text whenever any application send text to
-this socket.
+### Sample code for the rust binary
 
-To demonstrate the TCP listener let's create a rust project named `rust_app` using `cargo new rust_app --bin`. It will 
-create binary app project structure like below.
+In this example we will exercise a basic rust binary application to demonstrate how to build installer. The rust program
+which listens to a TCP Socket and write the text message on to listener's standard output (i.e. stdout) stream. The 
+program also has an option to set the port from an environment variable. Final goal is to run the software as a 
+background process and log the text to Listener's output stream whenever any other application sends message to the
+socket.
+
+Let's create a rust project named `rust_app` using `cargo new rust_app --bin`. It will create binary project structure
+as below.
 
 ```shell
 sample_rust_app
@@ -58,7 +61,7 @@ edition = "2021"
 
 ```
 
-A very simple `main.rs` source code which listens on a port and echo the streamed content into the STDOUT.
+A very simple `main.rs` which listens on a port and writes the content into the STDOUT stream.
 
 ```rust
 use std::env;
@@ -93,49 +96,46 @@ fn handle_client(mut stream: TcpStream) -> Result<(), Error> {
 
 ### Build
 
-Once the above code is ready, you can build the binary by using `cargo build --all-targets --workspace --release`. Once 
-the build is successfully completed, you will find your binary under `target/release/` directory. Let's try the binary 
-with a sample input.
+Build the binary project using `cargo build --all-targets --workspace --release`. On successful build completion, binary
+will be placed under `target/release/` directory. Let's try the binary with a sample input.
 
-Run the binary using the following. This will allow the binary to run and accept text at 9090 TCP port.
+Run the binary while setting `LISTEN_PORT` to `9090` to accept messages on localhost 9090 TCP port.
 
 ```shell
 $ export LISTEN_PORT=9090
 $ ./target/release/rust_app
 ```
 
-Now let send message to TCP socket using netcat client.
+We are going to use netcat client to send message to TCP socket like below.
 
 ```shell
-$ nc localhost 9090
-$ sneding message to text
-$
+$ echo sample_text | nc localhost 9090
 ```
 
-Now what ever send from the client should be echoed at rust_app program terminal.
+Now check the rust_app program terminal. It will show the same text i.e. `sample_text` whatever we send through netcat
+client.
 
 ### Upload Archive in Cloud Storage
 
-Now we will concentrate how to build installer for macOS. For this we will use Homebrew package manager. Homebrew requires a URL to download your binary. There are many choices to host your executable like any cloud provider
-with file storage service or may be GitHub Releases. For the current use case, I am using GitHub Releases because it is 
-free and easy to use.
+Now we will concentrate how to build an installer for macOS. We choose Homebrew package manager. Homebrew requires a URL
+to download your binary. There are a few choices to host your executable, like any cloud provider with file storage
+service or may be GitHub Releases. For the current use case, I am using GitHub Releases because it is free and easy to
+use.
 
-For the above example, the binary is archived (using `tar -C target/release -czf rust_app.tar.gz rust_app`) and uploaded
-into a GitHub release and is available under
-https://github.com/dasmanas/homebrew-rust-app/releases/download/v0.0.1/rust_app.tar.gz link. We will require this link
+From the rust source code example, the binary is archived (using `tar -C target/release -czf rust_app.tar.gz rust_app`)
+and uploaded into a GitHub release and is available under 
+https://github.com/dasmanas/homebrew-rust-app/releases/download/v0.0.1/rust_app.tar.gz link. We will require this link 
 in the installation instruction.
-
 
 ### Homebrew to Create the macOS Installer
 
 Homebrew offers a way to install formula from third party repositories (i.e. Taps) like GitHub repositories instead of 
 having it as part of core homebrew formula [homebrew-core](https://github.com/Homebrew/homebrew-core). We will create 
-one such GitHub project to host our formula. We will create a GitHub project with name `homebrew-rust-app` while 
-following the naming convention `homebrew-<project_name>`. By following this convention brew command to will be easy to 
-use for tapping.
+one such GitHub project to host our formula. GitHub project name is `homebrew-rust-app` while following the naming 
+convention `homebrew-<project_name>` to have better convenience for the user while tapping the repository.
 
-We will need to create the project in following structure where we will create Ruby file under Formula directory like
-shown here.
+We will create the homebrew project in following structure which will hold the Ruby formula file under Formula directory
+like shown here.
 
 ```
 homebrew-rust-app
@@ -145,15 +145,15 @@ homebrew-rust-app
 ```
 
 The Ruby file contains the installation instruction of your binary. Here is a sample ruby file for the formula. Here we
-tried to achieve following few things.
+will try to achieve a few things for our example.
 - A macOS installer for the binary.
-- User of the software doesn't need manage any configuration and will manage as part of the installation. For example,
-setting up environment variables.
+- User of the software doesn't need manage any configuration. Defaults (config, env vars etc.) will be manage as part of
+the installation.
 - Install the software under a managed directory by Homebrew. This gives more control to the software manufacturer to
-support backward compatibility or cleaning up memory in at the time of software version update.
+support backward compatibility or cleaning up memory in at times specially during software version update.
 - An installer which can be run as background service.
-- A test case for the installer which can be performed even before starting the installer as background service. By this
-user can determine if there is any potential issue.
+- Sample test case for the installer which can be performed even before starting the installer as background service
+will provide a better determine if there is any potential issue.
 
 ```ruby
 class Listener < Formula
@@ -244,18 +244,18 @@ class Listener < Formula
 end
 ```
 
-In the ruby script, the section `service do ... end` takes care of registering the software as background service. This 
-creates the required plist file under `~/Library/LaunchAgents/` for the LaunchAgents. The same time it eliminates the
-need of handcrafted plist file.
+In the ruby script, the section `service do ... end` takes care of registering the software as background service. The 
+block of ruby script creates the required plist file under `~/Library/LaunchAgents/` for the Launch Agents. At the same 
+time it eliminates the need of handcrafted plist file.
 
 We also added a `test do ... end` section to the ruby script to demonstrate the test capability. User can run a test on
-the installer even before starting the same as a service. As part of test, In the test section we 
+the installer even before starting the same as a service. 
 
 ### How to install your software as service
 
 Now it is ready to release the installer. To use the installer in macOS, here are some important tips.
 
-- Tap the third party repository for the brew formula. E.g. `brew tap dasmanas/rust-app`
+- Tap the third party repository for the brew formula. E.g. `brew tap dasmanas/rust-app`.
 - Install the formula from the tap. E.g. `brew tap listener`
 - Test the installed binary. E.g. `brew test listener`
 - Install the binary as service. E.g. `brew services start listener`. Once service has started as background process, 
