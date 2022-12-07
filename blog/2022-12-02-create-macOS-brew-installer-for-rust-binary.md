@@ -30,7 +30,7 @@ In this sections we will build a small rust binary and an installer for macOS us
 
 ### Sample code for the rust binary
 
-In this example we will exercise a basic rust binary application to demonstrate how to build installer. The rust program
+In this example we will exercise a basic rust binary application to demonstrate how to build an installer. The rust program
 which listens to a TCP Socket and write the text message on to listener's standard output (i.e. stdout) stream. The 
 program also has an option to set the port from an environment variable. Final goal is to run the software as a 
 background process and log the text to Listener's output stream whenever any other application sends message to the
