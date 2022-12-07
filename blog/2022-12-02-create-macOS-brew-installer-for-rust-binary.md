@@ -112,7 +112,7 @@ We are going to use netcat client to send message to TCP socket like below.
 $ echo sample_text | nc localhost 9090
 ```
 
-Now check the rust_app program terminal. It will show the same text i.e. `sample_text` whatever we send through netcat
+Now check the rust_app program terminal. It will show the same text i.e. `sample_text` which we send through netcat
 client.
 
 ### Upload Archive in Cloud Storage
