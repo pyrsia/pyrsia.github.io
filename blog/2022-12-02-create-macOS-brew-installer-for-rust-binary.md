@@ -246,7 +246,8 @@ end
 
 In the ruby script, the section `service do ... end` takes care of registering the software as background service. The 
 block of ruby script creates the required plist file under `~/Library/LaunchAgents/` for the Launch Agents. At the same 
-time it eliminates the need of handcrafted plist file.
+time it eliminates the need of handcrafted plist file. For more information you can always refer to Homebrew's 
+[Service files](https://docs.brew.sh/Formula-Cookbook#service-files) official doc.
 
 We also added a `test do ... end` section to the ruby script to demonstrate the test capability. User can run a test on
 the installer even before starting the same as a service. 
@@ -261,3 +262,8 @@ Now it is ready to release the installer. To use the installer in macOS, here ar
 - Install the binary as service. E.g. `brew services start listener`. Once service has started as background process, 
 the status of the service can be verified using `brew services list`.
 - Background service can be stopped at any time using brew's services utility. E.g. `brew services stop listener`
+
+In Pyrsia we built similar kind of installer for macOS. If you are a macOS user, you may also like to take a
+look at the code base from [homebrew-pyrsia](https://github.com/pyrsia/homebrew-pyrsia) or try out 
+[Quick Installation](/docs/tutorials/quick-installation) guide to install Pyrsia. For any improvement suggestion or to
+contribute open issue or pull request accordingly under [Pyrsia](https://github.com/pyrsia) project.
