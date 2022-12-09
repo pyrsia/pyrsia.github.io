@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[3276],{94480:function(a){a.exports=JSON.parse('{"label":"brew","permalink":"/blog/tags/brew","allTagsPath":"/blog/tags","count":1}')}}]);

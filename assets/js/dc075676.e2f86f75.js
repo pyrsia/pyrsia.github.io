@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[9901],{87773:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/installer","page":1,"postsPerPage":1,"totalPages":2,"totalCount":2,"nextPage":"/blog/tags/installer/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
