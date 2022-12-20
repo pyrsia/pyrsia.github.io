@@ -1,9 +1,6 @@
 ---
 title: How Pyrsia is Using libp2p to Take Over the World!
-authors:
-- name: Elliott Frisch
-  title: Pyrsia Contributor
-  image_url: https://github.com/efrisch.png
+authors: efrisch
 tags: [rust, libp2p, ipfs, ipfs-camp, pyrsia]
 ---
 ## Getting There
