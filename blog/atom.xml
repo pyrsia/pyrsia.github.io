@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pyrsia.io/blog</id>
     <title>Pyrsia.io Blog</title>
-    <updated>2022-12-02T00:00:00.000Z</updated>
+    <updated>2022-12-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pyrsia.io/blog"/>
     <subtitle>Pyrsia.io Blog</subtitle>
     <icon>https://pyrsia.io/img/favicon-32x32.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Release 0.2.2]]></title>
+        <id>/2022/12/20/pyrsia-0.2.2-released</id>
+        <link href="https://pyrsia.io/blog/2022/12/20/pyrsia-0.2.2-released"/>
+        <updated>2022-12-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Announcing a new release]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="announcing-a-new-release">Announcing a new release<a class="hash-link" href="#announcing-a-new-release" title="Direct link to heading">​</a></h2><p>We are happy to announce the release of <a href="https://github.com/pyrsia/pyrsia/releases/tag/v0.2.2" target="_blank" rel="noopener noreferrer">version 0.2.2</a> today!</p><p>As we continue to build Pyrsia we are now settling in on a regular release schedule. This is to allow us to release consistently and in small increments.</p><p>Starting this release we are listing the important features we hope to cover in the upcoming release. They are listed as part of <a href="https://github.com/pyrsia/pyrsia/milestone/8" target="_blank" rel="noopener noreferrer">the milestone definition</a>.</p><p>This release added a few important upgrades:</p><ul><li>Upgrade libp2p to 0.50.0</li><li>Upgrade clap for Pyrsia CLI</li><li>Upgrade and pin rust version to 1.64</li><li>Ability to query a requested build's status</li><li>Improvements in error messages</li><li>Documentation fixes and improvements</li><li>Onboarding resources for new developers hoping to learn about Pyrsia and Rust</li></ul><p>A big thing we learnt during this release is the ability to pin our builds to a definitive version of Rust. This simplifies our build and github processes significantly because we will be able to
+find the application rust version for every release. <code>Cargo.toml</code> will have that release defined and will be the one place to look for it for any automation.</p><p>While processing the release and testing it we also found an inadvertent dependency being pulled in - openssl. This dependency broke deployments on linux. We were able to discover a fix to use rusttls instead. We discovered this while running github actions that relied on <code>ubuntu-latest</code> instead of the specific LTS version of <code>ubuntu</code> we expected. We have now pinned the version of ubuntu that Pyrsia builds with.</p><p>Overall this will fix some of the issues that were reported to us and also make developer/contributor experience better.</p><p>Please <a href="https://pyrsia.io/docs/tutorials/quick-installation/" target="_blank" rel="noopener noreferrer">download our installers</a>, try out Pyrsia with Docker and <a href="https://pyrsia.io/docs/community/get_involved/" target="_blank" rel="noopener noreferrer">let us know</a> if you are looking for something Pyrsia does not support yet.</p>]]></content>
+        <author>
+            <name>Sudhindra Rao</name>
+            <uri>https://github.com/betarelease</uri>
+        </author>
+        <category label="pyrsia" term="pyrsia"/>
+        <category label="rust" term="rust"/>
+        <category label="onboarding" term="onboarding"/>
+        <category label="upgrade" term="upgrade"/>
+        <category label="0.2.2" term="0.2.2"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Create macOS Installer for Rust Binary App]]></title>
         <id>/2022/12/02/create-macOS-brew-installer-for-rust-binary</id>
