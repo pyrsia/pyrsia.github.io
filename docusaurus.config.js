@@ -178,6 +178,10 @@ async function createConfig() {
                   href: 'https://github.com/pyrsia',
                 },
                 {
+                  label: 'Shared Docs',
+                  href: 'https://drive.google.com/drive/folders/1HVw3WARxg7LKEh22_lLkesVhqFmKj5r7?usp=share_link',
+                },
+                {
                   label: 'Stack Overflow',
                   href: 'https://stackoverflow.com/questions/tagged/pyrsia',
                 },
