@@ -3,8 +3,8 @@ title: How Pyrsia is Using libp2p to Take Over the World!
 authors: efrisch
 tags: [rust, libp2p, ipfs, ipfs-camp, pyrsia]
 ---
-## Getting There
-Heading to [IPFS Camp 2022](https://2022.ipfs.camp/) on Thursday October 27, my flight scheduled for 2:53 pm, racing through Atlanta I realized I forgot my coat half-way to the airport. No time to retrieve it, I found myself aboard United flight 1829 to Newark, NJ arriving at EWR about 2 and a half hours later (without a coat). I was waiting for my connecting flight to Lisbon when they announced a gate change. Walked with the others down to the new gate. In the air at 2035 we arrived at about 0820 Friday morning and made our way to Portuguese customs.
+## IPFS Camp and Libp2p Day
+Heading to [IPFS Camp 2022](https://2022.ipfs.camp/) (the 2022 theme is discovering how to use IPFS to build a better web) on Thursday October 27, my flight scheduled for 2:53 pm, racing through Atlanta I realized I forgot my coat half-way to the airport. No time to retrieve it, I found myself aboard United flight 1829 to Newark, NJ arriving at EWR about 2 and a half hours later (without a coat). I was waiting for my connecting flight to Lisbon when they announced a gate change. Walked with the others down to the new gate. In the air at 2035 we arrived at about 0820 Friday morning and made our way to Portuguese customs.
 
 It is *already* time, I find a taxi outside the airport. Lucky the taxi drivers' English is far superior to my Portuguese, it cost a mere 10 Euros for the ride to the Convento do Beato and Day 1 of IPFS Camp!
 
@@ -30,7 +30,7 @@ Feeling exhausted, and having been awake since Thursday, I took an Uber back to 
 
 [IPLD is a data modeling language](https://youtu.be/J_Q6hF_lPiM). Used to model graph based data structures. Primary use case is for blockchain with-in filecoin.
 WNFS is a file system built on top of IPFS. Offers pinning services. This sounds conceptually like what we're building.
-Graphsync is used by Filecoin for syncing the blockchain. Possibly a good fit for syncing blockchains. Requires IPLD.
+[Graphsync](https://github.com/myelnet/rs-graphsync) is used by Filecoin for syncing the blockchain. Possibly a good fit for syncing blockchains. Requires IPLD.
 The measurement and performance unconference includes many interesting projects, especially [Testground](https://docs.testground.ai/).
 
 ## Day 3
