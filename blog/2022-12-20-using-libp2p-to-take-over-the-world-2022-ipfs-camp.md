@@ -42,6 +42,6 @@ Once again it is late, Uber to the hotel, eating and sleeping.
 
 Sadly, now IPFS camp is over, but I am glad that I was able to be here and have these conversations and make great connections!
 
-![IPFS Camp 2022 Group Photo](2022-ipfs-camp-group.png "IPFS Camp 2022 Group Photo")
+![IPFS Camp 2022 Group Photo](/img/blog/2022-ipfs-camp-group.png "IPFS Camp 2022 Group Photo")
 
 Please checkout [my talk](https://youtu.be/aIxmQKWUjNY) and the [slides](https://docs.google.com/presentation/d/1rn0NKAoTpxyA2iTPE_8fkEqKI3ke8xu9gnhcLyrm7Dk) to learn more about [Pyrsia](https://pyrsia.io/).
