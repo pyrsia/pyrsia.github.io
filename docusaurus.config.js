@@ -45,6 +45,8 @@ async function createConfig() {
             remarkPlugins: [require('mdx-mermaid'), math],
             rehypePlugins: [[katex, {strict: false}]],
             postsPerPage: 1,
+            blogSidebarTitle: 'All posts',
+            blogSidebarCount: 'ALL',
           },
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
