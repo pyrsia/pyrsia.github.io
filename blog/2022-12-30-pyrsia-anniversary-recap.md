@@ -55,7 +55,7 @@ As we continued to look for solutions that allow us to remain currency free and 
 
 Building a prototype was still a challenge because it involved integrating these three things together - Rust, libp2p and AlephBFT. We started with the most basic version of the blockchain that determines consensus based on round robin of the participating nodes. For libp2p we started with the most generic implementation and learnt our way through tuning it. The interesting part was making it work in Rust using the async mechanisms available. It took us a while to get to a working solution that did not crash on start. We still had memory leak issues that cause different behaviour after we ran the node for a while.
 
-We were able to resolve some of those errors slowly by moving to a more stable and supported tokio.rs library for all our async processing. Tieing it together libp2p made the memory leak go away and provide lot more stability that we had in the previous version.
+We were able to resolve some of those errors slowly by moving to a more stable and supported tokio.rs library for all our async processing. Tying it together libp2p made the memory leak go away and provide lot more stability that we had in the previous version.
 
 When we had it all working we released a [Demo Pyrsia network](https://github.com/pyrsia/pyrsia/releases/tag/v0.1.0).
 
