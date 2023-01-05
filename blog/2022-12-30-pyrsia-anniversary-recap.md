@@ -61,7 +61,7 @@ When we had it all working we released a [Demo Pyrsia network](https://github.co
 
 Releasing this working version where documentation matched behaviour and consistenly worked on all our machines and the cloud was our first big win! This came after tireless efforts at learning the language, the ecosystem, and the underlying technology while iteratively writing code.
 
-libp2p also provides a way to allow peers to communicate even if they are behind private networks(or NAT routers). This makes it easy to deploy these nodes in different scenarios without the need to engineer the network or create exceptions. Implementhing this behaviour proved to be a challenge as well when we started. With some help from the libp2p team and also removing some of the conflicting code helped us get better stability on this feature and release it as part of the prototype release.
+libp2p also provides a way to allow peers to communicate even if they are behind private networks(or NAT routers). This makes it easy to deploy these nodes in different scenarios without the need to engineer the network or create exceptions. Implementing this behaviour proved to be a challenge as well when we started. With some help from the libp2p team and also removing some of the conflicting code helped us get better stability on this feature and release it as part of the prototype release.
 
 From our first release we gained enough confidence to make this improvement and release another patch version right after - [NAT support on Pyrsia](https://github.com/pyrsia/pyrsia/releases/tag/v0.1.1).
 
