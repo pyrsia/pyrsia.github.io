@@ -18,7 +18,7 @@ Pyrsia started with taking all those into consideration and building a process t
 
 ## Security taken for granted
 
-Before the SolarWinds attack and widespread news attention it received security was taken for granted. Open source software continues to be build by individuals using trust metrics that work in real life. These trust mechanisms like `sharing commit access/publish rights, with other contributors was a widespread community practice` listed in [Rise of few-maintainer projects](https://increment.com/open-source/the-rise-of-few-maintainer-projects/) create a weak infrastructure that all software projects rely on. This worked as long as the awareness as well as impact was limited. With growing reliance on software from keeping the lights on to keeping us healthy and everything in between, this model of `trust` does not scale.
+Before the SolarWinds attack and widespread news attention it received security was taken for granted. Open source software continues to be built by individuals using trust metrics that work in real life. These trust mechanisms like `sharing commit access/publish rights, with other contributors was a widespread community practice` listed in [Rise of few-maintainer projects](https://increment.com/open-source/the-rise-of-few-maintainer-projects/) create a weak infrastructure that all software projects rely on. This worked as long as the awareness as well as impact was limited. With growing reliance on software from keeping the lights on to keeping us healthy and everything in between, this model of `trust` does not scale.
 
 Pyrsia started to challenge this status quo and provide a better, available, transparent supply chain for your software.
 
