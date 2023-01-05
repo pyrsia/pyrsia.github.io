@@ -24,7 +24,7 @@ Pyrsia started to challenge this status quo and provide a better, available, tra
 
 ## Navigating the technology space
 
-In the initial days the mission was getting clearer while we were researching and prototyping Everything!. Everything included - networking technologies, blockchain ledgers and technologies, programming in Rust and putting it all together. As we did this we were able to identify goals that we could incremental build towards. We started with the aim of building a working version of the decentralized network that would let users download packages from peers. With this as our minimal requirement we experimented with different tools that could help us deliver.
+In the initial days the mission was getting clearer while we were researching and prototyping Everything!. Everything included - networking technologies, blockchain ledgers and technologies, programming in Rust and putting it all together. As we did this we were able to identify goals that we could incrementally build towards. We started with the aim of building a working version of the decentralized network that would let users download packages from peers. With this as our minimal requirement we experimented with different tools that could help us deliver.
 
 ### Learning Rust
 
