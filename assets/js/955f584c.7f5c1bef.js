@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[1466],{24445:function(e){e.exports=JSON.parse('{"label":"immutable ledger","permalink":"/blog/tags/immutable-ledger","allTagsPath":"/blog/tags","count":1}')}}]);
