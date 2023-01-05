@@ -94,6 +94,6 @@ We are getting into a process where every release we are able to pick and priori
 
 On the back of the December release we are getting ready to release v0.2.3 in January 2023. Following that we will continue making a dent in our technical debt and continue progressing towards our next major milestone of releasing Java support by version v0.3.0. Along the way we have a few other significant improvements lined up eg. a scalable build service, wider Authority node network that runs on multiple clouds, an API that will encourage integration with language and package ecosystems and so on.
 
-I can't wait to get started on 2023 and showing off new features to our community.
+I can't wait to get started in 2023 and show off new features to our community.
 
 I am thankful to the community, the Linux Foundation, the CD Foundation and the many different communities we have now become part of. Without your support and criticism 2022 would not have been what it was for Pyrsia. Pyrsia started as an idea in 2022 but has grown into its own system over this year. Looking forward to growing it further with you together.
