@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[8873],{19738:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/security/page/2","page":2,"postsPerPage":1,"totalPages":2,"totalCount":2,"previousPage":"/blog/tags/security","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
