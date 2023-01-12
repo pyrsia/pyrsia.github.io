@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[9606],{15733:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/bft","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

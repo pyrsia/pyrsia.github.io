@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[6184],{41212:function(a){a.exports=JSON.parse('{"label":"authority","permalink":"/blog/tags/authority","allTagsPath":"/blog/tags","count":1}')}}]);
