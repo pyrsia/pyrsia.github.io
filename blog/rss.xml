@@ -4,10 +4,31 @@
         <title>Pyrsia.io Blog</title>
         <link>https://pyrsia.io/blog</link>
         <description>Pyrsia.io Blog</description>
-        <lastBuildDate>Thu, 05 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Release 0.2.3]]></title>
+            <link>https://pyrsia.io/blog/2023/01/13/pyrsia-0.2.3-released</link>
+            <guid>/2023/01/13/pyrsia-0.2.3-released</guid>
+            <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Announcing First Release of 2023]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="announcing-first-release-of-2023">Announcing First Release of 2023<a class="hash-link" href="#announcing-first-release-of-2023" title="Direct link to heading">​</a></h2><p>Here we wish a Happy New Year 2023 to all contributors, sponsors, CDF community, followers and the DevOps community
+members. In this year we will continue on our mission to solve a few high stake issues in Software Supply Chain.</p><p>We are happy to announce the release of <a href="https://github.com/pyrsia/pyrsia/releases/tag/v0.2.3" target="_blank" rel="noopener noreferrer">version 0.2.3</a> today!</p><p>We are our continued journey on a small &amp; frequent release schedule. This is to allow us to release consistently and in
+small increments as we decided.</p><p>Here are a few salient features we added to the release:</p><ul><li>Improved release docs with manual more test plan to ensure more confidence on the release and to provide more
+transparency.</li><li>A new operation to Pyrsia CLI to remove configuration completely to get a default config automatically as soon as we
+initiate a get through various way.</li><li>To provide better onboarding experience to new contributors, we made some significant onboarding doc updates to help
+with the understanding of Pyrsia and different toolset and framework we are using.</li><li>In GitHub build pipeline we pinned Windows and OS X version to be more definitive.</li><li>Using libp2p's GossipSub to distribute blocks among peers in more robust fashion.</li><li>Blocked any openssl direct &amp; transitive dependency to avoid clash with ssl provided by the platform.</li></ul><p>Here is a list of features we hope to cover in the upcoming release. They are listed as part of
+<a href="https://github.com/pyrsia/pyrsia/milestone/9" target="_blank" rel="noopener noreferrer">the milestone definition</a>.</p><p>Please <a href="https://pyrsia.io/docs/tutorials/quick-installation/" target="_blank" rel="noopener noreferrer">download our installers</a>, try out Pyrsia with Docker and
+<a href="https://pyrsia.io/docs/community/get_involved/" target="_blank" rel="noopener noreferrer">let us know</a> if you are looking for something Pyrsia does not support
+yet.</p>]]></content:encoded>
+            <category>pyrsia</category>
+            <category>rust</category>
+            <category>onboarding</category>
+            <category>upgrade</category>
+            <category>0.2.3</category>
+        </item>
         <item>
             <title><![CDATA[Authority Nodes]]></title>
             <link>https://pyrsia.io/blog/2023/01/05/authority_nodes</link>
