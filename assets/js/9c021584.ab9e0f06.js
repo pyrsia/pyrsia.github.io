@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[7438],{98055:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/release","page":1,"postsPerPage":1,"totalPages":3,"totalCount":3,"nextPage":"/blog/tags/release/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

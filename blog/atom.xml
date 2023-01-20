@@ -30,6 +30,7 @@ yet.</p>]]></content>
         <category label="onboarding" term="onboarding"/>
         <category label="upgrade" term="upgrade"/>
         <category label="0.2.3" term="0.2.3"/>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Authority Nodes]]></title>
@@ -90,6 +91,7 @@ find the application rust version for every release. <code>Cargo.toml</code> wil
         <category label="onboarding" term="onboarding"/>
         <category label="upgrade" term="upgrade"/>
         <category label="0.2.2" term="0.2.2"/>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[How Pyrsia is Using libp2p to Take Over the World!]]></title>
