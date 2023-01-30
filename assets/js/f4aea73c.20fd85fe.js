@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[3822],{5621:function(a){a.exports=JSON.parse('{"label":"bitcoin","permalink":"/blog/tags/bitcoin","allTagsPath":"/blog/tags","count":1}')}}]);

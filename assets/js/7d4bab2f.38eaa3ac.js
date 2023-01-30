@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[1274],{30156:function(a){a.exports=JSON.parse('{"label":"installer","permalink":"/blog/tags/installer","allTagsPath":"/blog/tags","count":2}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[8706],{76462:function(a){a.exports=JSON.parse('{"label":"rustlang","permalink":"/blog/tags/rustlang","allTagsPath":"/blog/tags","count":1}')}}]);

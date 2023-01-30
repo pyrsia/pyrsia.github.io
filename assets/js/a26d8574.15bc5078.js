@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[193],{66203:a=>{a.exports=JSON.parse('{"label":"blockchain","permalink":"/blog/tags/blockchain","allTagsPath":"/blog/tags","count":2}')}}]);

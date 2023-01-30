@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[772],{37670:s=>{s.exports=JSON.parse('{"label":"ipfs","permalink":"/blog/tags/ipfs","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[4044],{5564:a=>{a.exports=JSON.parse('{"label":"ipfs-camp","permalink":"/blog/tags/ipfs-camp","allTagsPath":"/blog/tags","count":1}')}}]);

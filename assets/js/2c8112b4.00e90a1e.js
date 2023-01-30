@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[3147],{5681:function(a){a.exports=JSON.parse('{"label":"proof-of-stake","permalink":"/blog/tags/proof-of-stake","allTagsPath":"/blog/tags","count":2}')}}]);

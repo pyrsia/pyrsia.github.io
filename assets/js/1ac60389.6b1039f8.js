@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[6142],{73358:a=>{a.exports=JSON.parse('{"label":"libp2p","permalink":"/blog/tags/libp-2-p","allTagsPath":"/blog/tags","count":1}')}}]);
