@@ -64,8 +64,8 @@ export default function HomepageTeam() {
                             <span className="colorWhite">THE TEAM BEHIND PYRSIA</span>
                         </h2>
                         <div className={`text--center padding-top--lg ${styles.description}`}>
-                            Pyrsia is driven by leading companies in the software industry. As a prospective project of
-                            the OpenSSF we are building on decades of experience developing, deploying and securing code
+                            Pyrsia is driven by leading companies in the software industry. As an incubating project of
+                            the <a href="https://cd.foundation">CD Foundation</a> we are building on decades of experience developing, deploying and securing code
                             pipelines. With companies like JFrog supporting this project, we are leveraging our
                             knowledge of package management, integration with central repositories, and the requirements
                             of building with open-source communities.

@@ -61,7 +61,7 @@ const FeatureList = [
         description: (
             <>
                 In order to bootstrap trust, only a select few reputable entities will build and publishing
-                images. These image will be available to everyone. Participates of the OpenSSF will all the have
+                images. These image will be available to everyone. Members of the <a href="https://cd.foundation">CD Foundation</a> will all the have
                 chance to volunteer their resources to help establish the first distributed network, but we are
                 most excited for the future!
             </>
