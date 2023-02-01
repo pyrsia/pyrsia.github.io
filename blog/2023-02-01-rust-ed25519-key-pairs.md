@@ -24,7 +24,7 @@ Below are the steps needed to convert key pairs from one format to another.
 let keypair = identity::ed25519::Keypair::generate();
 ```
 
-## Load a Key Pair
+## Load Openssl generated Key Pair in Rust Object
 
 ```rust
 let mut keypair_file = fs::File::open("ed25519.ser")?;
