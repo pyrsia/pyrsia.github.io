@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[2565],{95678:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/rust/page/4","page":4,"postsPerPage":1,"totalPages":6,"totalCount":6,"previousPage":"/blog/tags/rust/page/3","nextPage":"/blog/tags/rust/page/5","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
