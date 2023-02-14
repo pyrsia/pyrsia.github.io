@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pyrsia.io/blog</id>
     <title>Pyrsia.io Blog</title>
-    <updated>2023-02-01T00:00:00.000Z</updated>
+    <updated>2023-02-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pyrsia.io/blog"/>
     <subtitle>Pyrsia.io Blog</subtitle>
     <icon>https://pyrsia.io/img/favicon-32x32.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Announcing the Release of the Pyrsia Visual Studio Code Extension v0.1.0]]></title>
+        <id>https://pyrsia.io/blog/2023/02/14/vscode-pyrsia-extension</id>
+        <link href="https://pyrsia.io/blog/2023/02/14/vscode-pyrsia-extension"/>
+        <updated>2023-02-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to announce the launch of the Pyrsia VSCode Extension, a new and user-friendly way to interact with Pyrsia. This extension offers a variety of features that make using Pyrsia faster, easier, and more intuitive. In this release, you'll find the following key features:]]></summary>
+        <content type="html"><![CDATA[<p>We are excited to announce the launch of the Pyrsia VSCode Extension, a new and user-friendly way to interact with Pyrsia. This extension offers a variety of features that make using Pyrsia faster, easier, and more intuitive. In this release, you'll find the following key features:</p><ul><li>Integration with Docker Desktop for Pyrsia.</li><li>Configuration and monitoring of node connections.</li><li>A new command to request a Docker image build directly from within the VSCode extension.</li><li>The ability to view the Pyrsia transparency log entries in the VSCode editor.</li><li>An option to replace local Docker images with secure Pyrsia images.</li><li>Easy access to Pyrsia documentation, project GitHub pages, and support.</li></ul><p>We are committed to making the Pyrsia VSCode Extension the best it can be and will continue to add new features and improvements in future releases. Your feedback and suggestions are welcome and we hope you find this extension as useful as we do.</p><p>Please follow the instructions to <a href="https://github.com/pyrsia/pyrsia-vscode-extension#install-extension-side-load-extension" target="_blank" rel="noopener noreferrer">install the extension in VSCode</a>.</p><p>Thank you for your support and Happy Valentine's Day!</p>]]></content>
+        <author>
+            <name>Karol Harezlak</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Openssl and Rust libp2p ED25519 Key Pairs]]></title>
         <id>https://pyrsia.io/blog/2023/02/01/rust-ed25519-key-pairs</id>
