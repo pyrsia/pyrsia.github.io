@@ -17,8 +17,10 @@ We are excited to announce the launch of the Pyrsia VSCode Extension, a new and 
 - An option to replace local Docker images with secure Pyrsia images.
 - Easy access to Pyrsia documentation, project GitHub pages, and support.
 
-We are committed to making the Pyrsia VSCode Extension the best it can be and will continue to add new features and improvements in future releases. Your feedback and suggestions are welcome and we hope you find this extension as useful as we do.
+[![Pyrsia Extension with VSCode](/img/blog/pyrsia_vscode_video.png)](https://youtu.be/4ALKmtWmots "Pyrsia Extension with VSCode")
 
 Please follow the instructions to [install the extension in VSCode](https://github.com/pyrsia/pyrsia-vscode-extension#install-extension-side-load-extension).
+
+We are committed to making the Pyrsia VSCode Extension the best it can be and will continue to add new features and improvements in future releases. Your feedback and suggestions are welcome and we hope you find this extension as useful as we do.
 
 Thank you for your support and Happy Valentine's Day!
