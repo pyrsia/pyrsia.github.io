@@ -4,10 +4,27 @@
         <title>Pyrsia.io Blog</title>
         <link>https://pyrsia.io/blog</link>
         <description>Pyrsia.io Blog</description>
-        <lastBuildDate>Tue, 14 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Release 0.2.4]]></title>
+            <link>https://pyrsia.io/blog/2023/02/15/pyrsia-0.2.4-released</link>
+            <guid>https://pyrsia.io/blog/2023/02/15/pyrsia-0.2.4-released</guid>
+            <pubDate>Wed, 15 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Announcing Release 0.2.4 this Valentine's day]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="announcing-release-024-this-valentines-day">Announcing Release 0.2.4 this Valentine's day<a href="#announcing-release-024-this-valentines-day" class="hash-link" aria-label="Direct link to Announcing Release 0.2.4 this Valentine's day" title="Direct link to Announcing Release 0.2.4 this Valentine's day">​</a></h2><p>We are happy to announce the release of <a href="https://github.com/pyrsia/pyrsia/releases/tag/v0.2.4" target="_blank" rel="noopener noreferrer">version 0.2.4</a> today!</p><p>We are our continued journey on a small &amp; frequent release schedule. This is to allow us to release consistently and in
+small increments.</p><p>A couple of big announcements we would like to make with this release:</p><ul><li>We are happy to announce the release of a <a href="/blog/2023/02/14/vscode-pyrsia-extension/">VSCode extension for Pyrsia</a> - this will help developers bring secure images from Pyrsia into their development.</li><li>As of this release we now have a cloud node also deployed in AWS thus increasing the resilience of Pyrsia network.</li></ul><p>We continue to make incremental updates to improve the network :</p><ul><li>Pyrsia now has extended transparency log search - try it out</li><li>We updated to Rust version 1.66.1, which also helped us resolving vulnerabilities and clippy issues we had with 1.64</li><li>We updated the tool chain to use new github actions - we are now using the ones that are being supported by the rust community</li></ul><p>Our <a href="https://github.com/pyrsia/pyrsia/milestone/10" target="_blank" rel="noopener noreferrer">the milestone definition</a> for the next release will cover what we are planning next.</p><p>Please <a href="https://pyrsia.io/docs/tutorials/quick-installation/" target="_blank" rel="noopener noreferrer">download our installers</a>, try out Pyrsia with Docker and
+<a href="https://pyrsia.io/docs/community/get_involved/" target="_blank" rel="noopener noreferrer">let us know</a> if you are looking for something Pyrsia does not support
+yet.</p>]]></content:encoded>
+            <category>pyrsia</category>
+            <category>rust</category>
+            <category>onboarding</category>
+            <category>upgrade</category>
+            <category>0.2.4</category>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[Announcing the Release of the Pyrsia Visual Studio Code Extension v0.1.0]]></title>
             <link>https://pyrsia.io/blog/2023/02/14/vscode-pyrsia-extension</link>

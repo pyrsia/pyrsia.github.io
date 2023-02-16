@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[5470],{80397:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/upgrade/page/2","page":2,"postsPerPage":1,"totalPages":3,"totalCount":3,"previousPage":"/blog/tags/upgrade","nextPage":"/blog/tags/upgrade/page/3","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

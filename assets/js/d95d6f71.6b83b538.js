@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[5355],{11362:s=>{s.exports=JSON.parse('{"label":"rust","permalink":"/blog/tags/rust","allTagsPath":"/blog/tags","count":7}')}}]);

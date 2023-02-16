@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[8208],{86957:a=>{a.exports=JSON.parse('{"permalink":"/blog/tags/pyrsia/page/4","page":4,"postsPerPage":1,"totalPages":5,"totalCount":5,"previousPage":"/blog/tags/pyrsia/page/3","nextPage":"/blog/tags/pyrsia/page/5","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

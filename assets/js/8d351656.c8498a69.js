@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia=self.webpackChunkpyrsia||[]).push([[6326],{22400:e=>{e.exports=JSON.parse('{"permalink":"/blog/page/14","page":14,"postsPerPage":1,"totalPages":14,"totalCount":14,"previousPage":"/blog/page/13","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
