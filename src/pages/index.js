@@ -54,7 +54,6 @@ export default function Home() {
         <HomepageFeatures />
         <HomepagePkgFeatures />
         <HomepageSeparator />
-        <HomepageTeam />
       </main>
     </Layout>
   );
